@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA4E5651-0DA2-49F7-A585-A40790BF310D}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{DA4E5651-0DA2-49F7-A585-A40790BF310D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="RXD" ID="{7B46C221-7302-4BF7-8553-FDE7BF3192F9}" ShortID="712208734">
+					<ChildrenList>
+						<SoundBank Name="RXD_MUSIC_SFX" ID="{083C1E74-3D29-4965-AD83-F834366D396C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="RXD_Neptune" ID="{2CC3945B-78BC-4031-8742-E54B7A4FFAC5}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Rudniki" ID="{4242565F-B15B-412F-B305-D3F02C04F730}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Moon" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Lumber" ID="{69BD309B-6C3D-41AF-BB84-53269C64C5CD}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Forgecity" ID="{CDD8E870-1121-41CB-BB8F-D11DEFAB17AA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Milbase" ID="{0478D11B-6A51-41DD-B700-9C55B90C146C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Skit" ID="{4C84142C-E88F-4491-ACBA-B429041D3CD8}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Fort" ID="{190D73D7-9D04-4492-A7BD-AF37654A67A9}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Holmeisk" ID="{D70839BD-8CEA-44E3-A73E-FEB51E7F93C8}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Canal" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Pliego" ID="{7F6B7011-6915-450A-884D-713BADDBE0DB}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Grossberg" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Rift" ID="{756E18F9-A5ED-45A3-B3B7-2FBD9B89A942}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Faust" ID="{52FCC68D-41B8-4658-A5B0-ACF937D38AB0}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Canyon" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Iceworld" ID="{AD043681-CFFE-4743-9028-28686AC337F4}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Holland" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Himmelsdorf" ID="{CD5B34C0-6C56-49C1-9313-27C7F86F4996}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Mountain" ID="{8E3C179B-D466-4A1B-B93D-C0AF36B9E3FF}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Savanna" ID="{25F50EE5-974C-4AC4-A815-6CA53A16B1F6}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Karieri" ID="{2F2BD8A9-7A97-4B0F-9907-A813A0C15E40}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Desert_Train" ID="{4E709708-A809-4BFA-BB5F-8D7129DFD848}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Rock" ID="{5C5CF589-9477-4BFF-BDEE-53DC61FBD827}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Medvedkovo" ID="{A3639A63-22BB-4C92-9444-0B89796C8993}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Malinovka" ID="{C56E8C38-2E04-4D65-ABAE-0F898ACF8BFA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Port" ID="{C8C66E25-E05F-4DCE-88DF-BD84B45F1373}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Karelia" ID="{F75ADE28-EA7C-4DEE-A856-CA152012B7CE}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Amigosville" ID="{764D6C08-0E5F-4E0E-A7B9-8236BA5B24FA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Plant" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Italy" ID="{DA06FA38-1F33-4FB9-ADEC-987BCB6689AA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RXD_Erlenberg" ID="{A09A20E3-D897-4FF0-B176-A32147156489}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

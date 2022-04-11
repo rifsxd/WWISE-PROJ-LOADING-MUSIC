@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" SchemaVersion="97" RootDocumentID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}">
+	<Events>
+		<WorkUnit Name="WOTPC_BGM" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" OwnerID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="RXD_Amigosville" ID="{764D6C08-0E5F-4E0E-A7B9-8236BA5B24FA}">
+					<ChildrenList>
+						<Action Name="" ID="{42389E8F-75F9-4D35-8D86-D77FBE79C177}" ShortID="913716358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amigosville" ID="{F13694D6-A897-4420-948F-39D69E6CB974}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Desert_Train" ID="{4E709708-A809-4BFA-BB5F-8D7129DFD848}">
+					<ChildrenList>
+						<Action Name="" ID="{E98B569A-4428-4646-B6D9-FE47496CD4B3}" ShortID="150372925">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Lumber" ID="{69BD309B-6C3D-41AF-BB84-53269C64C5CD}">
+					<ChildrenList>
+						<Action Name="" ID="{E2AF3AB0-9A87-4C5B-B036-285C7EE91ACA}" ShortID="977109880">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lumber" ID="{C835B38C-A5BF-4AC5-99E8-6185117A010D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Erlenberg" ID="{A09A20E3-D897-4FF0-B176-A32147156489}">
+					<ChildrenList>
+						<Action Name="" ID="{2B5755A8-83F0-48B3-96CF-CCC5927165BE}" ShortID="1067845255">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Erlenberg" ID="{7DABF8D1-94B8-44D0-BA02-63EAAE1F2096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Neptune" ID="{2CC3945B-78BC-4031-8742-E54B7A4FFAC5}">
+					<ChildrenList>
+						<Action Name="" ID="{0FC019D8-8059-449B-ABE7-DA668B474587}" ShortID="422049696">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Neptune" ID="{AE8A3010-006F-4BB5-B3EC-B8502FD8CC6F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Malinovka" ID="{C56E8C38-2E04-4D65-ABAE-0F898ACF8BFA}">
+					<ChildrenList>
+						<Action Name="" ID="{289A8BF0-14E9-4DA3-8E3E-FEE41D1642F4}" ShortID="72265611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Malinovka" ID="{A3E7C9BD-EDDB-4104-BD2E-18B836BBB7F4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Forgecity" ID="{CDD8E870-1121-41CB-BB8F-D11DEFAB17AA}">
+					<ChildrenList>
+						<Action Name="" ID="{3A115A18-442A-4E98-A1D3-8E09C388B82A}" ShortID="619463509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forgecity" ID="{1451C6B9-9EC4-4EF1-A81C-315B3F3299D0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Moon" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}">
+					<ChildrenList>
+						<Action Name="" ID="{8C3DB781-159C-4670-865D-655596F10FD8}" ShortID="519410233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moon" ID="{7DC460D7-AEA6-47D1-9840-85A0BF60BD59}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Mountain" ID="{8E3C179B-D466-4A1B-B93D-C0AF36B9E3FF}">
+					<ChildrenList>
+						<Action Name="" ID="{7302EB36-F02C-46C2-9303-D786797BAB5E}" ShortID="708665668">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mountain" ID="{F6ACCDFF-F458-48CB-A5AB-FFEBA2FE34A9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Plant" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}">
+					<ChildrenList>
+						<Action Name="" ID="{0415D638-7959-404A-8B75-6E59B35AEF98}" ShortID="547364592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant" ID="{F302C24D-8A44-4924-BF9B-6C2436624761}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Karelia" ID="{F75ADE28-EA7C-4DEE-A856-CA152012B7CE}">
+					<ChildrenList>
+						<Action Name="" ID="{A10193C5-6529-4082-8580-9137A42C071A}" ShortID="734693384">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Karelia" ID="{F664D670-6E0E-40FE-9AC9-3C84AED190F0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Medvedkovo" ID="{A3639A63-22BB-4C92-9444-0B89796C8993}">
+					<ChildrenList>
+						<Action Name="" ID="{703BF66C-2111-4E77-933C-A65A023F865A}" ShortID="491889768">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Medvedkovo" ID="{55BA804A-A2B8-47DE-BADC-CEA47D271302}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Faust" ID="{52FCC68D-41B8-4658-A5B0-ACF937D38AB0}">
+					<ChildrenList>
+						<Action Name="" ID="{810EF24F-E956-4B15-B7E3-DABA2D6DDDD1}" ShortID="901158840">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Faust" ID="{0DFB33C2-3764-4BD7-B86D-64BBBA2B6396}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Karieri" ID="{2F2BD8A9-7A97-4B0F-9907-A813A0C15E40}">
+					<ChildrenList>
+						<Action Name="" ID="{1B92194D-168F-4D5C-A8F9-0826729F7965}" ShortID="914303488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Karieri" ID="{12EBAC5E-5EA5-4D51-9563-F063566B8E95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Italy" ID="{DA06FA38-1F33-4FB9-ADEC-987BCB6689AA}">
+					<ChildrenList>
+						<Action Name="" ID="{AA67671C-B8CA-499E-B083-968353922044}" ShortID="869716661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Italy" ID="{04321536-A909-444D-B5BF-CEB1940D60C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Holland" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}">
+					<ChildrenList>
+						<Action Name="" ID="{B1702967-3823-44CB-B03A-C7A7D4A21078}" ShortID="888721029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Holland" ID="{C570344D-0466-4418-A9F3-1BA0DC0B2A69}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Holmeisk" ID="{D70839BD-8CEA-44E3-A73E-FEB51E7F93C8}">
+					<ChildrenList>
+						<Action Name="" ID="{4639FA2C-EB57-491E-8A47-6FFF7BB59D81}" ShortID="688742004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Holmeisk" ID="{84E3A4A5-8EA1-4067-9F9A-94780DB768C3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Canyon" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}">
+					<ChildrenList>
+						<Action Name="" ID="{26E4A8DA-34F3-4390-B3EF-BC10545E1D14}" ShortID="236636046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Canyon" ID="{7AD07BE7-73E1-4F89-888B-7FD965D1354B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Grossberg" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}">
+					<ChildrenList>
+						<Action Name="" ID="{C65F7F38-097A-49E3-B037-44F2ADE5D926}" ShortID="778419864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grossberg" ID="{A668BE1A-48E9-4541-B05C-8E63F5565E56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Pliego" ID="{7F6B7011-6915-450A-884D-713BADDBE0DB}">
+					<ChildrenList>
+						<Action Name="" ID="{4151A219-A4E6-4B81-B75A-7E362FF86F19}" ShortID="230488618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pliego" ID="{BCB0384A-9B88-45E9-B015-B0834299A096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Skit" ID="{4C84142C-E88F-4491-ACBA-B429041D3CD8}">
+					<ChildrenList>
+						<Action Name="" ID="{F8BE0766-D59A-4C6A-899E-29194CF4652C}" ShortID="449920553">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skit" ID="{B59DC8DD-53B4-4F3F-B15F-05B1BB563918}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Port" ID="{C8C66E25-E05F-4DCE-88DF-BD84B45F1373}">
+					<ChildrenList>
+						<Action Name="" ID="{79421548-9118-4CFB-B49E-E9BD4D2C519E}" ShortID="75346610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Port" ID="{A63B7ACB-B7AF-4676-96A0-66600CB48A54}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Savanna" ID="{25F50EE5-974C-4AC4-A815-6CA53A16B1F6}">
+					<ChildrenList>
+						<Action Name="" ID="{47E24202-6EFD-4593-A40E-19474B5FF461}" ShortID="96723548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Savanna" ID="{49074BFE-FF24-4686-9A0F-180E843C88C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Fort" ID="{190D73D7-9D04-4492-A7BD-AF37654A67A9}">
+					<ChildrenList>
+						<Action Name="" ID="{BCC3BD33-B2DC-4B51-89F3-C17EE695DD8D}" ShortID="715107153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fort" ID="{C4609998-77B4-44C3-977B-A32F158993F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Iceworld" ID="{AD043681-CFFE-4743-9028-28686AC337F4}">
+					<ChildrenList>
+						<Action Name="" ID="{2D41B0AC-5A2E-4516-A669-ED2D79AB9B25}" ShortID="804923285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Iceworld" ID="{33B1C2C2-0A1F-4975-8F1C-832DBFF987B7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Milbase" ID="{0478D11B-6A51-41DD-B700-9C55B90C146C}">
+					<ChildrenList>
+						<Action Name="" ID="{9308469A-1DF5-4BD3-B8FC-FE7B525DF7C1}" ShortID="980967667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Milbase" ID="{5C7FD4AC-F345-4907-8D7B-75FCA022B062}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Himmelsdorf" ID="{CD5B34C0-6C56-49C1-9313-27C7F86F4996}">
+					<ChildrenList>
+						<Action Name="" ID="{C30F80D4-E5F3-4912-817A-6F4134B67037}" ShortID="172467341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Himmelsdorf" ID="{FD3E73D6-AED6-4E77-AA7D-2CF057C40558}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Rudniki" ID="{4242565F-B15B-412F-B305-D3F02C04F730}">
+					<ChildrenList>
+						<Action Name="" ID="{E1DC9579-A569-43A4-A0E3-7AB409781835}" ShortID="914270364">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rudniki" ID="{037D5BAD-1384-4804-B41C-898C92322FB9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Rift" ID="{756E18F9-A5ED-45A3-B3B7-2FBD9B89A942}">
+					<ChildrenList>
+						<Action Name="" ID="{2D1753AE-6756-43EB-B5FE-AFE3954C2E03}" ShortID="15106282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rift" ID="{17926CC9-F63F-4E12-A1CA-12E88B2D4F8B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Rock" ID="{5C5CF589-9477-4BFF-BDEE-53DC61FBD827}">
+					<ChildrenList>
+						<Action Name="" ID="{3C64CF10-FA67-4F5E-A1DC-0EDF2642568F}" ShortID="847939633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rock" ID="{865521AB-3834-4B3E-B0DD-4766CE9408E0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_Canal" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}">
+					<ChildrenList>
+						<Action Name="" ID="{8606020F-96DD-4DD1-8E56-4E4F08BA0D08}" ShortID="1053488854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Canal" ID="{E097A596-B935-437B-BC69-E92CFDFDE50A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
