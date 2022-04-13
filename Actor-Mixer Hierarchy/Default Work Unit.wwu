@@ -3615,7 +3615,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+							<ObjectRef Name="music_maps" ID="{1B1A60BD-62F2-4EA1-B4E3-599E8FECF8AB}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -3754,6 +3754,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Sand River" ID="{7170FF79-73D3-48D3-95B5-0CBFC5CD8E4B}" ShortID="461439661">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3775,6 +3782,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Sand River" ID="{21C2E7C5-F880-4243-8CC3-F332ACD489E2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Sand_River" ID="{CBFFCEE3-CCBC-4088-B1F5-02E11D79EF4D}" ShortID="996462326">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sand_River" ID="{B0AEE08A-D51B-4762-8021-293D733889BB}">
+													<Language>SFX</Language>
+													<AudioFile>Sand_River.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419208538"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sand_River" ID="{B0AEE08A-D51B-4762-8021-293D733889BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Medvedkovo" ID="{55BA804A-A2B8-47DE-BADC-CEA47D271302}" ShortID="924121028">
@@ -3788,6 +3817,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Prokhorovka" ID="{6F05F3AE-C96A-4623-B3D4-EB530ED7BCD8}" ShortID="375306806">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3809,6 +3845,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Prokhorovka" ID="{AFAAB2C1-BB3F-4FF6-939B-BD8D65EA1041}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Prokhorovka" ID="{06A78273-C7FD-4493-902B-BAB2A83CE2FE}" ShortID="302468081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prokhorovka" ID="{D99ECB90-717E-461F-9366-C5FE772F02CD}">
+													<Language>SFX</Language>
+													<AudioFile>Prokhorovka.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="878782006"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prokhorovka" ID="{D99ECB90-717E-461F-9366-C5FE772F02CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Italy" ID="{04321536-A909-444D-B5BF-CEB1940D60C2}" ShortID="1063127112">
@@ -3822,6 +3880,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Minsk" ID="{BA488B67-FAC3-4B28-8ED5-EA0E79C7004E}" ShortID="795882910">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3843,6 +3908,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Minsk" ID="{5FE68152-0E68-42A4-8EEC-620D736D31F4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Minsk" ID="{C44F1479-AFB5-4C7D-9D94-128A06A26977}" ShortID="414474427">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Minsk" ID="{0BD72295-5236-49FE-B9D6-B5706148DEBE}">
+													<Language>SFX</Language>
+													<AudioFile>Minsk.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1031481499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Minsk" ID="{0BD72295-5236-49FE-B9D6-B5706148DEBE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Canyon" ID="{7AD07BE7-73E1-4F89-888B-7FD965D1354B}" ShortID="581804106">
@@ -3856,6 +3943,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Ensk" ID="{76147E8A-4A52-421C-AF9E-B687874201F3}" ShortID="785976459">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3877,6 +3971,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Ensk" ID="{169D376C-7EAC-4E04-8225-CE0F1D519AE5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Ensk" ID="{8D17D478-AAF6-4FA4-B26E-40717BDC7AE9}" ShortID="233187857">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ensk" ID="{90F2E43A-E102-4D3D-A130-BB9C15AB041F}">
+													<Language>SFX</Language>
+													<AudioFile>Ensk.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="91083510"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ensk" ID="{90F2E43A-E102-4D3D-A130-BB9C15AB041F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Neptune" ID="{AE8A3010-006F-4BB5-B3EC-B8502FD8CC6F}" ShortID="375677640">
@@ -3890,6 +4006,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Westfield" ID="{05045CE4-4803-44D5-AC6A-01F0C996C77B}" ShortID="877374874">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3911,6 +4034,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Westfield" ID="{98F0631C-5ACF-4095-9FE9-A90EF3C41155}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Westfield" ID="{063711C9-83A8-4D9F-A40D-35117432FEA3}" ShortID="234584847">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Westfield" ID="{15D695A6-C737-4BB4-AF07-F02645EBEB95}">
+													<Language>SFX</Language>
+													<AudioFile>Westfield.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705783594"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Westfield" ID="{15D695A6-C737-4BB4-AF07-F02645EBEB95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Fort" ID="{C4609998-77B4-44C3-977B-A32F158993F5}" ShortID="677015586">
@@ -3924,6 +4069,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Ruinberg" ID="{0DD728F0-2158-4F1A-91E8-FD76415EFE6B}" ShortID="1008387480">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3945,6 +4097,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Ruinberg" ID="{482A5DB8-216A-4DEE-8107-79BA72E959BB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Ruinberg" ID="{83041C32-1C59-4002-985F-557252A67921}" ShortID="1007594337">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ruinberg" ID="{9E970F95-524D-4E36-AEC7-8F708EB7B1DF}">
+													<Language>SFX</Language>
+													<AudioFile>Ruinberg.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="263759074"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ruinberg" ID="{9E970F95-524D-4E36-AEC7-8F708EB7B1DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Port" ID="{A63B7ACB-B7AF-4676-96A0-66600CB48A54}" ShortID="634006243">
@@ -3958,6 +4132,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Steppes" ID="{09B65C80-7F4D-4A58-807C-16E36B916305}" ShortID="436551288">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3979,6 +4160,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Steppes" ID="{92AD2AF6-F31E-4DB0-8252-7B762B18CB53}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Steppes" ID="{177C13FB-08F5-4EF8-99C2-B3106F5CFAC7}" ShortID="1044570673">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Steppes" ID="{0BF30695-A766-4B56-A93A-A7B7D79E5A0F}">
+													<Language>SFX</Language>
+													<AudioFile>Steppes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="603848289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Steppes" ID="{0BF30695-A766-4B56-A93A-A7B7D79E5A0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Pliego" ID="{BCB0384A-9B88-45E9-B015-B0834299A096}" ShortID="411679833">
@@ -3992,6 +4195,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Abbey" ID="{FEC7E998-0350-452A-93CE-6D2BD25EC087}" ShortID="568241077">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4013,6 +4223,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Abbey" ID="{07881D0D-ABF0-43BE-BCF0-46E5A609008A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Abbey" ID="{51C043A0-A643-4893-BDD5-CE9DFF74EA98}" ShortID="212304586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abbey" ID="{4CFEB7C5-570C-4ED1-934E-DF675A8852B0}">
+													<Language>SFX</Language>
+													<AudioFile>Abbey.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037348935"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Abbey" ID="{4CFEB7C5-570C-4ED1-934E-DF675A8852B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rudniki" ID="{037D5BAD-1384-4804-B41C-898C92322FB9}" ShortID="343124058">
@@ -4026,6 +4258,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Mines" ID="{0F225630-9256-4C4F-B573-E5547756DBB0}" ShortID="694715962">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4047,6 +4286,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Mines" ID="{51876CBE-D3DE-4EB7-BEB1-70C85222126A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Mines" ID="{F1018056-827F-431C-A6CC-D9DCAA4310FC}" ShortID="499306311">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mines" ID="{5FC7E98E-201E-483D-ABCE-2009EE33D630}">
+													<Language>SFX</Language>
+													<AudioFile>Mines.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311012629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mines" ID="{5FC7E98E-201E-483D-ABCE-2009EE33D630}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Karelia" ID="{F664D670-6E0E-40FE-9AC9-3C84AED190F0}" ShortID="272137583">
@@ -4060,6 +4321,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Karelia" ID="{2EA51955-5CBF-40DF-B58B-BBC68FF9B695}" ShortID="1043724455">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4081,6 +4349,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Karelia" ID="{7D023933-D007-4028-BD8C-3023990065B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Karelia" ID="{EA855C97-5756-42D9-A4DD-DCA8354BDCD4}" ShortID="246417347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Karelia" ID="{348AEDDB-EA68-4D70-AA93-5B788FFD1829}">
+													<Language>SFX</Language>
+													<AudioFile>Karelia.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702265055"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Karelia" ID="{348AEDDB-EA68-4D70-AA93-5B788FFD1829}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" ShortID="510318957">
@@ -4094,6 +4384,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - El Halluf" ID="{52C2E398-EFA3-44AA-8AD9-ADF69D5380EE}" ShortID="1072654107">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4115,6 +4412,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - El Halluf" ID="{07D84530-22CB-4634-8624-2C63FED47A90}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="El_Halluf" ID="{AAA84A28-50AB-48CD-AB6F-DCD9D8F28839}" ShortID="1032287188">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="El_Halluf" ID="{1BBF7DEC-360A-4E69-BEBF-5E54BF0E7FD6}">
+													<Language>SFX</Language>
+													<AudioFile>El_Halluf.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732771002"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="El_Halluf" ID="{1BBF7DEC-360A-4E69-BEBF-5E54BF0E7FD6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Mountain" ID="{F6ACCDFF-F458-48CB-A5AB-FFEBA2FE34A9}" ShortID="1067417610">
@@ -4128,6 +4447,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Siegfried Line" ID="{3289635D-0199-462E-9726-FB000B134401}" ShortID="491938678">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4149,6 +4475,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Siegfried Line" ID="{178DB35A-A262-42E0-BA7B-1EFB09D7E651}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Siegfried_Line" ID="{C1E57F39-AC12-491A-B998-A4AD158B182D}" ShortID="523342951">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Siegfried_Line" ID="{FDBD5CF0-A341-4AF8-8A18-D6E8AA02E4A4}">
+													<Language>SFX</Language>
+													<AudioFile>Siegfried_Line.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946003128"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Siegfried_Line" ID="{FDBD5CF0-A341-4AF8-8A18-D6E8AA02E4A4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Skit" ID="{B59DC8DD-53B4-4F3F-B15F-05B1BB563918}" ShortID="240852304">
@@ -4162,6 +4510,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Fjords" ID="{7B753D0C-B571-4D65-9BDE-917621A8E554}" ShortID="607968712">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4183,6 +4538,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Fjords" ID="{DFC23776-EC22-4489-9390-E655E04E8DBA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Fjords" ID="{DF0108A4-FBE6-4DEA-8728-98145D39C273}" ShortID="175947316">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fjords" ID="{137A1997-17EC-4485-A967-D7FB8D4DA0BD}">
+													<Language>SFX</Language>
+													<AudioFile>Fjords.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415418282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fjords" ID="{137A1997-17EC-4485-A967-D7FB8D4DA0BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grossberg" ID="{A668BE1A-48E9-4541-B05C-8E63F5565E56}" ShortID="753777792">
@@ -4196,6 +4573,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks Original Soundtrack - Pearl River" ID="{2D5F83E4-3CB2-4DD0-80BC-2C21B530648C}" ShortID="246646557">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4217,6 +4601,28 @@
 												<ActiveSource Name="World of Tanks Original Soundtrack - Pearl River" ID="{A31C8C0F-E8B1-47F6-96CB-91374672C58A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Pearl_River" ID="{022DDDB3-935A-4FA4-9AAE-47633A54A708}" ShortID="862139583">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pearl_River" ID="{251C2449-6EA8-478F-92C8-355C13A28A9E}">
+													<Language>SFX</Language>
+													<AudioFile>Pearl_River.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1052374007"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pearl_River" ID="{251C2449-6EA8-478F-92C8-355C13A28A9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rift" ID="{17926CC9-F63F-4E12-A1CA-12E88B2D4F8B}" ShortID="373733177">
@@ -4230,6 +4636,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Cliff" ID="{B94A38DE-39CB-4CED-BB6D-0F8F3FAAB56A}" ShortID="178987187">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4251,6 +4664,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Cliff" ID="{AC0C774F-178D-46A8-85FB-CD38DDDB17C7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Cliff" ID="{7E528BE5-9849-4FFA-96CD-42AA87463AFB}" ShortID="386380170">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cliff" ID="{8CA364DC-7620-46ED-A10C-2A23BF18634D}">
+													<Language>SFX</Language>
+													<AudioFile>Cliff.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8081489"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cliff" ID="{8CA364DC-7620-46ED-A10C-2A23BF18634D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Forgecity" ID="{1451C6B9-9EC4-4EF1-A81C-315B3F3299D0}" ShortID="174723777">
@@ -4264,6 +4699,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks Original Soundtrack - Highway" ID="{ACCA0DDE-CDC0-4553-B673-AFCA22D7DD99}" ShortID="759451650">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4285,6 +4727,28 @@
 												<ActiveSource Name="World of Tanks Original Soundtrack - Highway" ID="{E7DE9D09-2E14-47C3-845A-D08F28E5A738}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Highway" ID="{CFAB0FF9-BCCE-431C-80F3-877EA7D1B72B}" ShortID="1056438868">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Highway" ID="{15E991F1-024E-4BF9-ACCF-902B435EBA48}">
+													<Language>SFX</Language>
+													<AudioFile>Highway.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808203236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Highway" ID="{15E991F1-024E-4BF9-ACCF-902B435EBA48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Canal" ID="{E097A596-B935-437B-BC69-E92CFDFDE50A}" ShortID="1050288031">
@@ -4298,6 +4762,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Pilsen" ID="{2B39AE0F-3DA5-4AFC-88CF-2BC5C8569C66}" ShortID="451264285">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4319,6 +4790,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Pilsen" ID="{D2243DC4-0373-4DAA-91E6-3E69FB9CD260}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Pilsen" ID="{1F5660F7-8E16-4D51-B7EB-935A426B2D02}" ShortID="231055014">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pilsen" ID="{73DFF0AA-319D-4F27-A2D8-0BF598092272}">
+													<Language>SFX</Language>
+													<AudioFile>Pilsen.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53616439"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pilsen" ID="{73DFF0AA-319D-4F27-A2D8-0BF598092272}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Holland" ID="{C570344D-0466-4418-A9F3-1BA0DC0B2A69}" ShortID="889807409">
@@ -4332,6 +4825,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Fisherman's Bay" ID="{B1575911-527A-404D-B1E8-B00093071E4B}" ShortID="91051794">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4353,6 +4853,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Fisherman's Bay" ID="{5BCD9DDF-1F6C-4989-81F5-524091299143}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Fisherman's_Bay" ID="{0EBAEE91-4D76-4EC6-987D-DF34A5415440}" ShortID="730341490">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fisherman's_Bay" ID="{EF0DA67A-91F6-4646-BA83-B0F5D4D30E12}">
+													<Language>SFX</Language>
+													<AudioFile>Fisherman's_Bay.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="402222471"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fisherman's_Bay" ID="{EF0DA67A-91F6-4646-BA83-B0F5D4D30E12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Himmelsdorf" ID="{FD3E73D6-AED6-4E77-AA7D-2CF057C40558}" ShortID="331102377">
@@ -4366,6 +4888,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Himmelsdorf" ID="{547C2FB7-C8C9-47A7-AA6D-1215FEC40C26}" ShortID="411638159">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4387,6 +4916,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Himmelsdorf" ID="{DFD26064-0494-4A71-8419-2F1E70E52699}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Himmelsdorf" ID="{C53D1462-5500-4CCF-A7DE-C6A02DAB64F1}" ShortID="707859358">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Himmelsdorf" ID="{BC49E43C-51EC-492F-B9B6-072D206526E5}">
+													<Language>SFX</Language>
+													<AudioFile>Himmelsdorf.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1023685309"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Himmelsdorf" ID="{BC49E43C-51EC-492F-B9B6-072D206526E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Lumber" ID="{C835B38C-A5BF-4AC5-99E8-6185117A010D}" ShortID="318284470">
@@ -4400,6 +4951,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Mountain Pass" ID="{FC03A2F6-0629-477A-BA85-32DB6C0A4A35}" ShortID="891312962">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4421,6 +4979,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Mountain Pass" ID="{556B3C59-BE08-498B-9B8D-3C39D93872AB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Mountain_Pass" ID="{3CFD0561-A2DA-450D-A205-B6011D2C86CB}" ShortID="780137948">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mountain_Pass" ID="{64ED61DD-9A0F-47A5-9E07-A370CDB3CC79}">
+													<Language>SFX</Language>
+													<AudioFile>Mountain_Pass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332452126"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mountain_Pass" ID="{64ED61DD-9A0F-47A5-9E07-A370CDB3CC79}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Amigosville" ID="{F13694D6-A897-4420-948F-39D69E6CB974}" ShortID="475915874">
@@ -4434,6 +5014,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Lakeville" ID="{5776FC32-FC2F-438E-8C95-44C5F1D28CF8}" ShortID="259800459">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4455,6 +5042,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Lakeville" ID="{9C891394-4AA7-4FB6-9C97-AA76D13F6B6B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Lakeville" ID="{50429F96-F658-4067-B7EC-EC4A572B7C4A}" ShortID="358957200">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lakeville" ID="{8DF92D10-7F5A-41F7-A17C-7B8432B81D17}">
+													<Language>SFX</Language>
+													<AudioFile>Lakeville.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="763481499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lakeville" ID="{8DF92D10-7F5A-41F7-A17C-7B8432B81D17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Milbase" ID="{5C7FD4AC-F345-4907-8D7B-75FCA022B062}" ShortID="1023761977">
@@ -4468,6 +5077,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks Original Soundtrack - Safe Haven" ID="{EBD25938-A46D-494F-9DF3-4FD7FBC544AD}" ShortID="48794948">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4489,6 +5105,28 @@
 												<ActiveSource Name="World of Tanks Original Soundtrack - Safe Haven" ID="{60870B23-546D-425A-BBD6-B59D6B8862A8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Safe_Haven" ID="{542ABA11-D678-496C-9EF7-594F717D10E0}" ShortID="727168129">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Safe_Haven" ID="{B831A6CB-112F-4576-B7C5-BC61D7F24198}">
+													<Language>SFX</Language>
+													<AudioFile>Safe_Haven.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="947017105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Safe_Haven" ID="{B831A6CB-112F-4576-B7C5-BC61D7F24198}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Plant" ID="{F302C24D-8A44-4924-BF9B-6C2436624761}" ShortID="1021742270">
@@ -4502,6 +5140,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks Original Soundtrack - Studzianki featuring Polish band Żywiołak" ID="{B128A195-446A-4A31-8397-97989245BB6C}" ShortID="751860500">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4523,6 +5168,28 @@
 												<ActiveSource Name="World of Tanks Original Soundtrack - Studzianki featuring Polish band Żywiołak" ID="{604B27EC-02FF-4468-9749-80B2449C6266}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Żywiołak" ID="{2714EE3B-8A40-4031-9473-25F6AC00F65C}" ShortID="117542164">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Żywiołak" ID="{132A695E-8651-4EE2-A1BC-B48B206EA17D}">
+													<Language>SFX</Language>
+													<AudioFile>Żywiołak.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83065943"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Żywiołak" ID="{132A695E-8651-4EE2-A1BC-B48B206EA17D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Erlenberg" ID="{7DABF8D1-94B8-44D0-BA02-63EAAE1F2096}" ShortID="186872981">
@@ -4536,6 +5203,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Erlenberg" ID="{D3A64376-6BA4-4718-ACD6-9C0BBC7B0FC9}" ShortID="545636752">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4557,6 +5231,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Erlenberg" ID="{AF84A628-9CF4-433F-AEB6-0B7433909DEC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Erlenberg" ID="{94970928-9C36-44B5-A027-7922C1C9D68F}" ShortID="280402083">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erlenberg" ID="{EDB9711E-BB07-48FF-9621-33F733E76245}">
+													<Language>SFX</Language>
+													<AudioFile>Erlenberg.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706009422"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Erlenberg" ID="{EDB9711E-BB07-48FF-9621-33F733E76245}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Faust" ID="{0DFB33C2-3764-4BD7-B86D-64BBBA2B6396}" ShortID="908422242">
@@ -4570,6 +5266,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Nebelburg" ID="{C2D19829-4C8A-4598-8AD8-2C62D917154A}" ShortID="149702246">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4591,6 +5294,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Nebelburg" ID="{079175D2-C746-4934-9C0F-533E07080BA1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Nebelburg" ID="{BEA6E18C-7CD2-4631-B45F-20B8A5B719A1}" ShortID="85894815">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Nebelburg" ID="{34BDEB2F-C19E-465F-B05C-D10671CD1615}">
+													<Language>SFX</Language>
+													<AudioFile>Nebelburg.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="291503148"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Nebelburg" ID="{34BDEB2F-C19E-465F-B05C-D10671CD1615}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rock" ID="{865521AB-3834-4B3E-B0DD-4766CE9408E0}" ShortID="17069402">
@@ -4604,6 +5329,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Redshire" ID="{F1DB317D-C1DB-4252-80F4-C4339CA50C16}" ShortID="562203614">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4625,6 +5357,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Redshire" ID="{02B0D950-60A0-4848-BFD0-9CCB292021CF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Redshire" ID="{1ACA332E-5768-4894-9BAD-478B2A399AFB}" ShortID="1045259547">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Redshire" ID="{D3E0CA51-75E8-44BF-883A-338F02F4E384}">
+													<Language>SFX</Language>
+													<AudioFile>Redshire.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="273866598"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Redshire" ID="{D3E0CA51-75E8-44BF-883A-338F02F4E384}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Holmeisk" ID="{84E3A4A5-8EA1-4067-9F9A-94780DB768C3}" ShortID="317126961">
@@ -4638,6 +5392,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Overlord" ID="{7C87C9E9-837C-45E9-99BB-58023FD0EB89}" ShortID="20266652">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4659,6 +5420,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Overlord" ID="{6555311A-0124-4A77-9526-33B52D6A3E63}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Overlord" ID="{6DE25BE8-CF76-4425-AEB3-4D46DDB1F1AA}" ShortID="193002364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Overlord" ID="{A9F163E1-6D59-4C85-82E0-5CA984D5E6CA}">
+													<Language>SFX</Language>
+													<AudioFile>Overlord.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057662269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Overlord" ID="{A9F163E1-6D59-4C85-82E0-5CA984D5E6CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Malinovka" ID="{A3E7C9BD-EDDB-4104-BD2E-18B836BBB7F4}" ShortID="654898905">
@@ -4672,6 +5455,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Malinovka" ID="{8E9523A1-7575-4F37-BCDF-B49BA9873B74}" ShortID="255054068">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4693,6 +5483,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Malinovka" ID="{A26E92D9-EA34-476B-A668-3074BD81077C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Malinovka" ID="{9BF2D57B-1362-4137-A9E4-F7CC324DC1E4}" ShortID="996455925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Malinovka" ID="{E8831101-7751-4192-A95D-FE5256D3D19D}">
+													<Language>SFX</Language>
+													<AudioFile>Malinovka.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="339443986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Malinovka" ID="{E8831101-7751-4192-A95D-FE5256D3D19D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Moon" ID="{7DC460D7-AEA6-47D1-9840-85A0BF60BD59}" ShortID="262148421">
@@ -4706,6 +5518,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks – Official Soundtrack - Live Oaks" ID="{E3CE6E94-29CB-4243-83E6-48B4DA37D644}" ShortID="155525408">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4727,6 +5546,28 @@
 												<ActiveSource Name="World of Tanks – Official Soundtrack - Live Oaks" ID="{C471B2FF-C921-4B88-9933-A4049D71AFC9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Live_Oaks" ID="{07F798FB-CE9F-48F2-82B1-A985FF06760F}" ShortID="541210665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Live_Oaks" ID="{EAC72EFD-A7D6-4EFD-B365-1D7A11006C88}">
+													<Language>SFX</Language>
+													<AudioFile>Live_Oaks.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="5838910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Live_Oaks" ID="{EAC72EFD-A7D6-4EFD-B365-1D7A11006C88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Iceworld" ID="{33B1C2C2-0A1F-4975-8F1C-832DBFF987B7}" ShortID="720006660">
@@ -4740,6 +5581,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Glacier" ID="{1C4B70CF-0A3F-457D-8A04-C9C62C4D0081}" ShortID="864766775">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4761,6 +5609,28 @@
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Glacier" ID="{615B9F2C-CF93-48BF-B4C9-D8A66695CD41}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Glacier" ID="{21CE82C2-EB7F-4167-A1D9-D379535BC231}" ShortID="507258105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Glacier" ID="{FAD7403D-F8F2-4185-A6AF-D0E25065607E}">
+													<Language>SFX</Language>
+													<AudioFile>Glacier.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="84119866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Glacier" ID="{FAD7403D-F8F2-4185-A6AF-D0E25065607E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Karieri" ID="{12EBAC5E-5EA5-4D51-9563-F063566B8E95}" ShortID="394565574">
@@ -4774,6 +5644,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World of Tanks - Official Soundtrack - Tundra" ID="{92FF1709-3610-454A-AF25-3CF253160E2A}" ShortID="253362387">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -4793,6 +5670,28 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="World of Tanks - Official Soundtrack - Tundra" ID="{18D4D19E-0BB2-40BD-858E-564C75ABAD1B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Tundra" ID="{697AA27C-D1E8-436C-B442-21FA45D489A4}" ShortID="1069641412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Tundra" ID="{2AF01213-5FF1-4EFA-87AA-B084351B034A}">
+													<Language>SFX</Language>
+													<AudioFile>Tundra.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="862273393"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Tundra" ID="{2AF01213-5FF1-4EFA-87AA-B084351B034A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

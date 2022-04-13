@@ -1,0 +1,80 @@
+Event	ID	Name			Wwise Object Path	Notes
+	144810829	RXD_Italy			\Default Work Unit\WOTPC_BGM\RXD_Italy	
+	399522454	RXD_Holland			\Default Work Unit\WOTPC_BGM\RXD_Holland	
+	505542461	RXD_Port			\Default Work Unit\WOTPC_BGM\RXD_Port	
+	612516326	RXD_Grossberg			\Default Work Unit\WOTPC_BGM\RXD_Grossberg	
+	1044143053	RXD_Mountain			\Default Work Unit\WOTPC_BGM\RXD_Mountain	
+	1081070048	RXD_Canyon			\Default Work Unit\WOTPC_BGM\RXD_Canyon	
+	1122098492	RXD_Savanna			\Default Work Unit\WOTPC_BGM\RXD_Savanna	
+	1356269003	RXD_Plant			\Default Work Unit\WOTPC_BGM\RXD_Plant	
+	1533431692	RXD_Forgecity			\Default Work Unit\WOTPC_BGM\RXD_Forgecity	
+	1722076836	RXD_Desert_Train			\Default Work Unit\WOTPC_BGM\RXD_Desert_Train	
+	1784736050	RXD_Holmeisk			\Default Work Unit\WOTPC_BGM\RXD_Holmeisk	
+	1826043004	RXD_Medvedkovo			\Default Work Unit\WOTPC_BGM\RXD_Medvedkovo	
+	1964609655	RXD_Fort			\Default Work Unit\WOTPC_BGM\RXD_Fort	
+	2088089717	RXD_Skit			\Default Work Unit\WOTPC_BGM\RXD_Skit	
+	2214381232	RXD_Pliego			\Default Work Unit\WOTPC_BGM\RXD_Pliego	
+	2405950130	RXD_Rudniki			\Default Work Unit\WOTPC_BGM\RXD_Rudniki	
+	2493706441	RXD_Milbase			\Default Work Unit\WOTPC_BGM\RXD_Milbase	
+	2654303351	RXD_Neptune			\Default Work Unit\WOTPC_BGM\RXD_Neptune	
+	2808987724	RXD_Amigosville			\Default Work Unit\WOTPC_BGM\RXD_Amigosville	
+	2849778795	RXD_Karieri			\Default Work Unit\WOTPC_BGM\RXD_Karieri	
+	3058872792	RXD_Erlenberg			\Default Work Unit\WOTPC_BGM\RXD_Erlenberg	
+	3167875471	RXD_Moon			\Default Work Unit\WOTPC_BGM\RXD_Moon	
+	3245140040	RXD_Himmelsdorf			\Default Work Unit\WOTPC_BGM\RXD_Himmelsdorf	
+	3347626227	RXD_Iceworld			\Default Work Unit\WOTPC_BGM\RXD_Iceworld	
+	3353709457	RXD_Canal			\Default Work Unit\WOTPC_BGM\RXD_Canal	
+	3419719893	RXD_Faust			\Default Work Unit\WOTPC_BGM\RXD_Faust	
+	3626364975	RXD_Karelia			\Default Work Unit\WOTPC_BGM\RXD_Karelia	
+	3723337244	RXD_Malinovka			\Default Work Unit\WOTPC_BGM\RXD_Malinovka	
+	3966857561	RXD_Lumber			\Default Work Unit\WOTPC_BGM\RXD_Lumber	
+	4214095497	RXD_Rift			\Default Work Unit\WOTPC_BGM\RXD_Rift	
+	4264722575	RXD_Rock			\Default Work Unit\WOTPC_BGM\RXD_Rock	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2247086130	STATE_music_volume_fadeout			\Music\STATE_music_volume_fadeout	
+
+State	ID	Name	State Group			Notes
+	748895195	None	STATE_music_volume_fadeout			
+	1929134559	STATE_music_volume_on	STATE_music_volume_fadeout			
+	3659244819	STATE_music_volume_off	STATE_music_volume_fadeout			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	503574905	STATE_music_volume_off	STATE_music_volume_fadeout	\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	244438798	RTPC_ext_settings_volume_master_music			\Settings\RTPC_ext_settings_volume_master_music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12811835	World of Tanks - Official Soundtrack - Erlenberg	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Erlenberg_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Erlenberg\World of Tanks - Official Soundtrack - Erlenberg		3189870
+	84855508	World of Tanks - Official Soundtrack - Tundra	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Tundra_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Karieri\World of Tanks - Official Soundtrack - Tundra		2927311
+	130342081	World of Tanks – Official Soundtrack - Live Oaks	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Live Oaks_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Moon\World of Tanks – Official Soundtrack - Live Oaks		3078606
+	216772429	World of Tanks - Official Soundtrack - Abbey	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Abbey_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Pliego\World of Tanks - Official Soundtrack - Abbey		3211652
+	252269900	World of Tanks – Official Soundtrack - Redshire	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Redshire_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Rock\World of Tanks – Official Soundtrack - Redshire		3257897
+	253908841	World of Tanks – Official Soundtrack - Nebelburg	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Nebelburg_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Faust\World of Tanks – Official Soundtrack - Nebelburg		3845746
+	295976533	World of Tanks – Official Soundtrack - Ruinberg	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Ruinberg_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Fort\World of Tanks – Official Soundtrack - Ruinberg		3263123
+	312014149	World of Tanks - Official Soundtrack - Ensk	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Ensk_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Canyon\World of Tanks - Official Soundtrack - Ensk		3279093
+	312764752	World of Tanks – Official Soundtrack - Sand River	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Sand River_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Savanna\World of Tanks – Official Soundtrack - Sand River		3293925
+	397159518	World of Tanks Original Soundtrack - Highway	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks Original Soundtrack - Highway_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Forgecity\World of Tanks Original Soundtrack - Highway		3714218
+	415609425	World of Tanks - Official Soundtrack - Pilsen	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Pilsen_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Canal\World of Tanks - Official Soundtrack - Pilsen		3520111
+	418319900	World of Tanks – Official Soundtrack - Himmelsdorf	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Himmelsdorf_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Himmelsdorf\World of Tanks – Official Soundtrack - Himmelsdorf		2994666
+	456571661	World of Tanks - Official Soundtrack - Minsk	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Minsk_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Italy\World of Tanks - Official Soundtrack - Minsk		2864183
+	476250477	World of Tanks – Official Soundtrack - Steppes	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Steppes_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Port\World of Tanks – Official Soundtrack - Steppes		2766481
+	497986346	World of Tanks – Official Soundtrack - Mines	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Mines_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Rudniki\World of Tanks – Official Soundtrack - Mines		2898268
+	507462503	World of Tanks - Official Soundtrack - Lakeville	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Lakeville_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Amigosville\World of Tanks - Official Soundtrack - Lakeville		3312151
+	533266233	World of Tanks - Official Soundtrack - Glacier	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Glacier_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Iceworld\World of Tanks - Official Soundtrack - Glacier		3040319
+	619241450	World of Tanks – Official Soundtrack - Malinovka	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Malinovka_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Malinovka\World of Tanks – Official Soundtrack - Malinovka		3170417
+	634010618	World of Tanks - Official Soundtrack - El Halluf	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - El Halluf_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Desert_Train\World of Tanks - Official Soundtrack - El Halluf		3496628
+	647935937	World of Tanks Original Soundtrack - Pearl River	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks Original Soundtrack - Pearl River_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Grossberg\World of Tanks Original Soundtrack - Pearl River		3378535
+	670743590	World of Tanks - Official Soundtrack - Fjords	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Fjords_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Skit\World of Tanks - Official Soundtrack - Fjords		3408280
+	675504915	World of Tanks - Official Soundtrack - Mountain Pass	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Mountain Pass_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Lumber\World of Tanks - Official Soundtrack - Mountain Pass		3786400
+	721255673	World of Tanks – Official Soundtrack - Siegfried Line	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks – Official Soundtrack - Siegfried Line_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Mountain\World of Tanks – Official Soundtrack - Siegfried Line		3049597
+	844335382	World of Tanks - Official Soundtrack - Karelia	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Karelia_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Karelia\World of Tanks - Official Soundtrack - Karelia		3261741
+	904201946	World of Tanks Original Soundtrack - Safe Haven	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks Original Soundtrack - Safe Haven_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Milbase\World of Tanks Original Soundtrack - Safe Haven		2913885
+	907104012	World of Tanks - Official Soundtrack - Cliff	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Cliff_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Rift\World of Tanks - Official Soundtrack - Cliff		3014604
+	941352629	World of Tanks - Official Soundtrack - Westfield	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Westfield_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Neptune\World of Tanks - Official Soundtrack - Westfield		3195560
+	948060198	World of Tanks - Official Soundtrack - Fisherman's Bay	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Fisherman's Bay_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Holland\World of Tanks - Official Soundtrack - Fisherman's Bay		3381562
+	1040105345	World of Tanks - Official Soundtrack - Overlord	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Overlord_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Holmeisk\World of Tanks - Official Soundtrack - Overlord		3063936
+	1062221635	World of Tanks Original Soundtrack - Studzianki featuring Polish band Żywiołak	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks Original Soundtrack - Studzianki featuring Polish band Żywiołak_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Plant\World of Tanks Original Soundtrack - Studzianki featuring Polish band Żywiołak		2408326
+	1067296102	World of Tanks - Official Soundtrack - Prokhorovka	E:\GitHub\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\SFX\World of Tanks - Official Soundtrack - Prokhorovka_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Load_BGM\NEW\Medvedkovo\World of Tanks - Official Soundtrack - Prokhorovka		3250967
+

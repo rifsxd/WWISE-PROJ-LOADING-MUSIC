@@ -18,6 +18,7 @@
 						<Bus Name="music_result_screen" ID="{9A678B20-3F3F-4FCD-92A4-41E83E5D55CC}"/>
 						<Bus Name="music_battle" ID="{E61E0BFF-678B-4E4D-B716-9A4F5C4473ED}"/>
 						<Bus Name="VOICEOVER" ID="{0BFB483C-B6F6-4976-9D90-3895CB7FE5ED}"/>
+						<Bus Name="music_maps" ID="{1B1A60BD-62F2-4EA1-B4E3-599E8FECF8AB}"/>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
