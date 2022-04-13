@@ -26,7 +26,7 @@
    {
     "Id": "2675053005",
     "Language": "SFX",
-    "Hash": "3876981308",
+    "Hash": "2813769730",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_SFX",
     "ShortName": "RXD_MUSIC_SFX",
     "Path": "RXD_MUSIC_SFX.bnk",
@@ -35,6 +35,9 @@
       "Id": "2808987724",
       "Name": "RXD_Amigosville",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Amigosville",
+      "DurationType": "OneShot",
+      "DurationMin": "39.387749",
+      "DurationMax": "39.387749",
       "IncludedMemoryFiles": [
        {
         "Id": "763481499",
@@ -42,12 +45,22 @@
         "ShortName": "Lakeville.wav",
         "Path": "SFX/Lakeville_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3353709457",
       "Name": "RXD_Canal",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Canal",
+      "DurationType": "OneShot",
+      "DurationMin": "38.512772",
+      "DurationMax": "38.512772",
       "IncludedMemoryFiles": [
        {
         "Id": "53616439",
@@ -55,12 +68,22 @@
         "ShortName": "Pilsen.wav",
         "Path": "SFX/Pilsen_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1081070048",
       "Name": "RXD_Canyon",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Canyon",
+      "DurationType": "OneShot",
+      "DurationMin": "39.296562",
+      "DurationMax": "39.296562",
       "IncludedMemoryFiles": [
        {
         "Id": "91083510",
@@ -68,12 +91,22 @@
         "ShortName": "Ensk.wav",
         "Path": "SFX/Ensk_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1722076836",
       "Name": "RXD_Desert_Train",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Desert_Train",
+      "DurationType": "OneShot",
+      "DurationMin": "39.124916",
+      "DurationMax": "39.124916",
       "IncludedMemoryFiles": [
        {
         "Id": "732771002",
@@ -81,12 +114,22 @@
         "ShortName": "El_Halluf.wav",
         "Path": "SFX/El_Halluf_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3058872792",
       "Name": "RXD_Erlenberg",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Erlenberg",
+      "DurationType": "OneShot",
+      "DurationMin": "39.123875",
+      "DurationMax": "39.123875",
       "IncludedMemoryFiles": [
        {
         "Id": "706009422",
@@ -94,12 +137,22 @@
         "ShortName": "Erlenberg.wav",
         "Path": "SFX/Erlenberg_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3419719893",
       "Name": "RXD_Faust",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Faust",
+      "DurationType": "OneShot",
+      "DurationMin": "39.39452",
+      "DurationMax": "39.39452",
       "IncludedMemoryFiles": [
        {
         "Id": "291503148",
@@ -107,12 +160,22 @@
         "ShortName": "Nebelburg.wav",
         "Path": "SFX/Nebelburg_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1533431692",
       "Name": "RXD_Forgecity",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Forgecity",
+      "DurationType": "OneShot",
+      "DurationMin": "39.212749",
+      "DurationMax": "39.212749",
       "IncludedMemoryFiles": [
        {
         "Id": "808203236",
@@ -120,12 +183,22 @@
         "ShortName": "Highway.wav",
         "Path": "SFX/Highway_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1964609655",
       "Name": "RXD_Fort",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Fort",
+      "DurationType": "OneShot",
+      "DurationMin": "39.15221",
+      "DurationMax": "39.15221",
       "IncludedMemoryFiles": [
        {
         "Id": "263759074",
@@ -133,12 +206,22 @@
         "ShortName": "Ruinberg.wav",
         "Path": "SFX/Ruinberg_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "612516326",
       "Name": "RXD_Grossberg",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Grossberg",
+      "DurationType": "OneShot",
+      "DurationMin": "39.498417",
+      "DurationMax": "39.498417",
       "IncludedMemoryFiles": [
        {
         "Id": "1052374007",
@@ -146,12 +229,22 @@
         "ShortName": "Pearl_River.wav",
         "Path": "SFX/Pearl_River_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3245140040",
       "Name": "RXD_Himmelsdorf",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Himmelsdorf",
+      "DurationType": "OneShot",
+      "DurationMin": "39.288647",
+      "DurationMax": "39.288647",
       "IncludedMemoryFiles": [
        {
         "Id": "1023685309",
@@ -159,12 +252,22 @@
         "ShortName": "Himmelsdorf.wav",
         "Path": "SFX/Himmelsdorf_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "399522454",
       "Name": "RXD_Holland",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Holland",
+      "DurationType": "OneShot",
+      "DurationMin": "39.231499",
+      "DurationMax": "39.231499",
       "IncludedMemoryFiles": [
        {
         "Id": "402222471",
@@ -172,12 +275,22 @@
         "ShortName": "Fisherman's_Bay.wav",
         "Path": "SFX/Fisherman's_Bay_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1784736050",
       "Name": "RXD_Holmeisk",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Holmeisk",
+      "DurationType": "OneShot",
+      "DurationMin": "39.552021",
+      "DurationMax": "39.552021",
       "IncludedMemoryFiles": [
        {
         "Id": "1057662269",
@@ -185,12 +298,22 @@
         "ShortName": "Overlord.wav",
         "Path": "SFX/Overlord_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3347626227",
       "Name": "RXD_Iceworld",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Iceworld",
+      "DurationType": "OneShot",
+      "DurationMin": "39.027561",
+      "DurationMax": "39.027561",
       "IncludedMemoryFiles": [
        {
         "Id": "84119866",
@@ -198,12 +321,22 @@
         "ShortName": "Glacier.wav",
         "Path": "SFX/Glacier_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "144810829",
       "Name": "RXD_Italy",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Italy",
+      "DurationType": "OneShot",
+      "DurationMin": "39.183727",
+      "DurationMax": "39.183727",
       "IncludedMemoryFiles": [
        {
         "Id": "1031481499",
@@ -211,12 +344,22 @@
         "ShortName": "Minsk.wav",
         "Path": "SFX/Minsk_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3626364975",
       "Name": "RXD_Karelia",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Karelia",
+      "DurationType": "OneShot",
+      "DurationMin": "40.329147",
+      "DurationMax": "40.329147",
       "IncludedMemoryFiles": [
        {
         "Id": "702265055",
@@ -224,12 +367,22 @@
         "ShortName": "Karelia.wav",
         "Path": "SFX/Karelia_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2849778795",
       "Name": "RXD_Karieri",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Karieri",
+      "DurationType": "OneShot",
+      "DurationMin": "39.287395",
+      "DurationMax": "39.287395",
       "IncludedMemoryFiles": [
        {
         "Id": "862273393",
@@ -237,12 +390,22 @@
         "ShortName": "Tundra.wav",
         "Path": "SFX/Tundra_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3966857561",
       "Name": "RXD_Lumber",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Lumber",
+      "DurationType": "OneShot",
+      "DurationMin": "38.987877",
+      "DurationMax": "38.987877",
       "IncludedMemoryFiles": [
        {
         "Id": "332452126",
@@ -250,12 +413,22 @@
         "ShortName": "Mountain_Pass.wav",
         "Path": "SFX/Mountain_Pass_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3723337244",
       "Name": "RXD_Malinovka",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Malinovka",
+      "DurationType": "OneShot",
+      "DurationMin": "39.480335",
+      "DurationMax": "39.480335",
       "IncludedMemoryFiles": [
        {
         "Id": "339443986",
@@ -263,12 +436,22 @@
         "ShortName": "Malinovka.wav",
         "Path": "SFX/Malinovka_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1826043004",
       "Name": "RXD_Medvedkovo",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Medvedkovo",
+      "DurationType": "OneShot",
+      "DurationMin": "38.920959",
+      "DurationMax": "38.920959",
       "IncludedMemoryFiles": [
        {
         "Id": "878782006",
@@ -276,12 +459,22 @@
         "ShortName": "Prokhorovka.wav",
         "Path": "SFX/Prokhorovka_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2493706441",
       "Name": "RXD_Milbase",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Milbase",
+      "DurationType": "OneShot",
+      "DurationMin": "38.969894",
+      "DurationMax": "38.969894",
       "IncludedMemoryFiles": [
        {
         "Id": "947017105",
@@ -289,12 +482,22 @@
         "ShortName": "Safe_Haven.wav",
         "Path": "SFX/Safe_Haven_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "3167875471",
       "Name": "RXD_Moon",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Moon",
+      "DurationType": "OneShot",
+      "DurationMin": "39.651291",
+      "DurationMax": "39.651291",
       "IncludedMemoryFiles": [
        {
         "Id": "5838910",
@@ -302,12 +505,22 @@
         "ShortName": "Live_Oaks.wav",
         "Path": "SFX/Live_Oaks_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1044143053",
       "Name": "RXD_Mountain",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Mountain",
+      "DurationType": "OneShot",
+      "DurationMin": "33.630833",
+      "DurationMax": "33.630833",
       "IncludedMemoryFiles": [
        {
         "Id": "946003128",
@@ -315,12 +528,22 @@
         "ShortName": "Siegfried_Line.wav",
         "Path": "SFX/Siegfried_Line_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2654303351",
       "Name": "RXD_Neptune",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Neptune",
+      "DurationType": "OneShot",
+      "DurationMin": "39.649353",
+      "DurationMax": "39.649353",
       "IncludedMemoryFiles": [
        {
         "Id": "705783594",
@@ -328,12 +551,22 @@
         "ShortName": "Westfield.wav",
         "Path": "SFX/Westfield_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1356269003",
       "Name": "RXD_Plant",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Plant",
+      "DurationType": "OneShot",
+      "DurationMin": "38.787498",
+      "DurationMax": "38.787498",
       "IncludedMemoryFiles": [
        {
         "Id": "83065943",
@@ -341,12 +574,22 @@
         "ShortName": "Żywiołak.wav",
         "Path": "SFX/Żywiołak_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2214381232",
       "Name": "RXD_Pliego",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Pliego",
+      "DurationType": "OneShot",
+      "DurationMin": "39.552021",
+      "DurationMax": "39.552021",
       "IncludedMemoryFiles": [
        {
         "Id": "1037348935",
@@ -354,12 +597,22 @@
         "ShortName": "Abbey.wav",
         "Path": "SFX/Abbey_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "505542461",
       "Name": "RXD_Port",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Port",
+      "DurationType": "OneShot",
+      "DurationMin": "34.884895",
+      "DurationMax": "34.884895",
       "IncludedMemoryFiles": [
        {
         "Id": "603848289",
@@ -367,12 +620,22 @@
         "ShortName": "Steppes.wav",
         "Path": "SFX/Steppes_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "4214095497",
       "Name": "RXD_Rift",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Rift",
+      "DurationType": "OneShot",
+      "DurationMin": "39.604481",
+      "DurationMax": "39.604481",
       "IncludedMemoryFiles": [
        {
         "Id": "8081489",
@@ -380,12 +643,22 @@
         "ShortName": "Cliff.wav",
         "Path": "SFX/Cliff_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "4264722575",
       "Name": "RXD_Rock",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Rock",
+      "DurationType": "OneShot",
+      "DurationMin": "39.491688",
+      "DurationMax": "39.491688",
       "IncludedMemoryFiles": [
        {
         "Id": "273866598",
@@ -393,12 +666,22 @@
         "ShortName": "Redshire.wav",
         "Path": "SFX/Redshire_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2405950130",
       "Name": "RXD_Rudniki",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Rudniki",
+      "DurationType": "OneShot",
+      "DurationMin": "39.651291",
+      "DurationMax": "39.651291",
       "IncludedMemoryFiles": [
        {
         "Id": "311012629",
@@ -406,12 +689,22 @@
         "ShortName": "Mines.wav",
         "Path": "SFX/Mines_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "1122098492",
       "Name": "RXD_Savanna",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Savanna",
+      "DurationType": "OneShot",
+      "DurationMin": "35.386478",
+      "DurationMax": "35.386478",
       "IncludedMemoryFiles": [
        {
         "Id": "419208538",
@@ -419,18 +712,35 @@
         "ShortName": "Sand_River.wav",
         "Path": "SFX/Sand_River_3F75BDB9.wem"
        }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
+       }
       ]
      },
      {
       "Id": "2088089717",
       "Name": "RXD_Skit",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\RXD_Skit",
+      "DurationType": "OneShot",
+      "DurationMin": "39.533669",
+      "DurationMax": "39.533669",
       "IncludedMemoryFiles": [
        {
         "Id": "415418282",
         "Language": "SFX",
         "ShortName": "Fjords.wav",
         "Path": "SFX/Fjords_3F75BDB9.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1929134559",
+        "Name": "STATE_music_volume_on",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
        }
       ]
      }
@@ -440,6 +750,15 @@
       "Id": "244438798",
       "Name": "RTPC_ext_settings_volume_master_music",
       "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1929134559",
+      "Name": "STATE_music_volume_on",
+      "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on",
+      "GUID": "{19A0C703-7564-415F-8002-9BF8A25434DC}",
+      "States": []
      }
     ]
    }

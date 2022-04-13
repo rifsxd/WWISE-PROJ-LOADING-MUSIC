@@ -251,8 +251,8 @@
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJECT-LOADING-MUSIC\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1612575830" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJECT-LOADING-MUSIC\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614938051" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJECT-LOADING-MUSIC\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649544038" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\WoTB_Sound_Mod.wproj" DateLow="1620050647" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\WoTB_Sound_Mod.rifsxd.wsettings" DateLow="1649828994" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\WoTB_Sound_Mod.wproj" DateLow="1649845836" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\WoTB_Sound_Mod.rifsxd.wsettings" DateLow="1649845857" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1612575826" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Virtual Acoustics\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Triggers\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
@@ -281,7 +281,7 @@
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1612575830" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Game Parameters\Factory Motion.wwu" DateLow="1612575824" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Game Parameters\Default Work Unit.wwu" DateLow="1613810594" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Events\WOTPC_BGM.wwu" DateLow="1649570554" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Events\WOTPC_BGM.wwu" DateLow="1649841716" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Events\Weapon.wwu" DateLow="1614672739" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Events\VoiceOver.wwu" DateLow="1613748844" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Events\UI_Battle.wwu" DateLow="1621312163" DateHigh="0"/>
@@ -334,5 +334,5 @@
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1612575812" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1612575830" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614938051" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649569076" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WWISE-PROJ-LOADING-MUSIC\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649844753" DateHigh="0"/>
 </ValidationCache>

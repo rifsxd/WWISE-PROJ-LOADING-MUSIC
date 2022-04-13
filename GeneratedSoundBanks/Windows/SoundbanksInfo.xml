@@ -16,263 +16,361 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2675053005" Language="SFX" Hash="3876981308">
+		<SoundBank Id="2675053005" Language="SFX" Hash="2813769730">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_SFX</ObjectPath>
 			<ShortName>RXD_MUSIC_SFX</ShortName>
 			<Path>RXD_MUSIC_SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2808987724" Name="RXD_Amigosville" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Amigosville">
+				<Event Id="2808987724" Name="RXD_Amigosville" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Amigosville" DurationType="OneShot" DurationMin="39.387749" DurationMax="39.387749">
 					<IncludedMemoryFiles>
 						<File Id="763481499" Language="SFX">
 							<ShortName>Lakeville.wav</ShortName>
 							<Path>SFX/Lakeville_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3353709457" Name="RXD_Canal" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Canal">
+				<Event Id="3353709457" Name="RXD_Canal" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Canal" DurationType="OneShot" DurationMin="38.512772" DurationMax="38.512772">
 					<IncludedMemoryFiles>
 						<File Id="53616439" Language="SFX">
 							<ShortName>Pilsen.wav</ShortName>
 							<Path>SFX/Pilsen_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1081070048" Name="RXD_Canyon" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Canyon">
+				<Event Id="1081070048" Name="RXD_Canyon" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Canyon" DurationType="OneShot" DurationMin="39.296562" DurationMax="39.296562">
 					<IncludedMemoryFiles>
 						<File Id="91083510" Language="SFX">
 							<ShortName>Ensk.wav</ShortName>
 							<Path>SFX/Ensk_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1722076836" Name="RXD_Desert_Train" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Desert_Train">
+				<Event Id="1722076836" Name="RXD_Desert_Train" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Desert_Train" DurationType="OneShot" DurationMin="39.124916" DurationMax="39.124916">
 					<IncludedMemoryFiles>
 						<File Id="732771002" Language="SFX">
 							<ShortName>El_Halluf.wav</ShortName>
 							<Path>SFX/El_Halluf_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3058872792" Name="RXD_Erlenberg" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Erlenberg">
+				<Event Id="3058872792" Name="RXD_Erlenberg" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Erlenberg" DurationType="OneShot" DurationMin="39.123875" DurationMax="39.123875">
 					<IncludedMemoryFiles>
 						<File Id="706009422" Language="SFX">
 							<ShortName>Erlenberg.wav</ShortName>
 							<Path>SFX/Erlenberg_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3419719893" Name="RXD_Faust" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Faust">
+				<Event Id="3419719893" Name="RXD_Faust" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Faust" DurationType="OneShot" DurationMin="39.39452" DurationMax="39.39452">
 					<IncludedMemoryFiles>
 						<File Id="291503148" Language="SFX">
 							<ShortName>Nebelburg.wav</ShortName>
 							<Path>SFX/Nebelburg_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1533431692" Name="RXD_Forgecity" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Forgecity">
+				<Event Id="1533431692" Name="RXD_Forgecity" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Forgecity" DurationType="OneShot" DurationMin="39.212749" DurationMax="39.212749">
 					<IncludedMemoryFiles>
 						<File Id="808203236" Language="SFX">
 							<ShortName>Highway.wav</ShortName>
 							<Path>SFX/Highway_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1964609655" Name="RXD_Fort" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Fort">
+				<Event Id="1964609655" Name="RXD_Fort" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Fort" DurationType="OneShot" DurationMin="39.15221" DurationMax="39.15221">
 					<IncludedMemoryFiles>
 						<File Id="263759074" Language="SFX">
 							<ShortName>Ruinberg.wav</ShortName>
 							<Path>SFX/Ruinberg_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="612516326" Name="RXD_Grossberg" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Grossberg">
+				<Event Id="612516326" Name="RXD_Grossberg" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Grossberg" DurationType="OneShot" DurationMin="39.498417" DurationMax="39.498417">
 					<IncludedMemoryFiles>
 						<File Id="1052374007" Language="SFX">
 							<ShortName>Pearl_River.wav</ShortName>
 							<Path>SFX/Pearl_River_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3245140040" Name="RXD_Himmelsdorf" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Himmelsdorf">
+				<Event Id="3245140040" Name="RXD_Himmelsdorf" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Himmelsdorf" DurationType="OneShot" DurationMin="39.288647" DurationMax="39.288647">
 					<IncludedMemoryFiles>
 						<File Id="1023685309" Language="SFX">
 							<ShortName>Himmelsdorf.wav</ShortName>
 							<Path>SFX/Himmelsdorf_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="399522454" Name="RXD_Holland" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Holland">
+				<Event Id="399522454" Name="RXD_Holland" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Holland" DurationType="OneShot" DurationMin="39.231499" DurationMax="39.231499">
 					<IncludedMemoryFiles>
 						<File Id="402222471" Language="SFX">
 							<ShortName>Fisherman's_Bay.wav</ShortName>
 							<Path>SFX/Fisherman's_Bay_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1784736050" Name="RXD_Holmeisk" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Holmeisk">
+				<Event Id="1784736050" Name="RXD_Holmeisk" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Holmeisk" DurationType="OneShot" DurationMin="39.552021" DurationMax="39.552021">
 					<IncludedMemoryFiles>
 						<File Id="1057662269" Language="SFX">
 							<ShortName>Overlord.wav</ShortName>
 							<Path>SFX/Overlord_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3347626227" Name="RXD_Iceworld" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Iceworld">
+				<Event Id="3347626227" Name="RXD_Iceworld" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Iceworld" DurationType="OneShot" DurationMin="39.027561" DurationMax="39.027561">
 					<IncludedMemoryFiles>
 						<File Id="84119866" Language="SFX">
 							<ShortName>Glacier.wav</ShortName>
 							<Path>SFX/Glacier_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="144810829" Name="RXD_Italy" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Italy">
+				<Event Id="144810829" Name="RXD_Italy" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Italy" DurationType="OneShot" DurationMin="39.183727" DurationMax="39.183727">
 					<IncludedMemoryFiles>
 						<File Id="1031481499" Language="SFX">
 							<ShortName>Minsk.wav</ShortName>
 							<Path>SFX/Minsk_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3626364975" Name="RXD_Karelia" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Karelia">
+				<Event Id="3626364975" Name="RXD_Karelia" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Karelia" DurationType="OneShot" DurationMin="40.329147" DurationMax="40.329147">
 					<IncludedMemoryFiles>
 						<File Id="702265055" Language="SFX">
 							<ShortName>Karelia.wav</ShortName>
 							<Path>SFX/Karelia_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2849778795" Name="RXD_Karieri" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Karieri">
+				<Event Id="2849778795" Name="RXD_Karieri" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Karieri" DurationType="OneShot" DurationMin="39.287395" DurationMax="39.287395">
 					<IncludedMemoryFiles>
 						<File Id="862273393" Language="SFX">
 							<ShortName>Tundra.wav</ShortName>
 							<Path>SFX/Tundra_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3966857561" Name="RXD_Lumber" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Lumber">
+				<Event Id="3966857561" Name="RXD_Lumber" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Lumber" DurationType="OneShot" DurationMin="38.987877" DurationMax="38.987877">
 					<IncludedMemoryFiles>
 						<File Id="332452126" Language="SFX">
 							<ShortName>Mountain_Pass.wav</ShortName>
 							<Path>SFX/Mountain_Pass_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3723337244" Name="RXD_Malinovka" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Malinovka">
+				<Event Id="3723337244" Name="RXD_Malinovka" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Malinovka" DurationType="OneShot" DurationMin="39.480335" DurationMax="39.480335">
 					<IncludedMemoryFiles>
 						<File Id="339443986" Language="SFX">
 							<ShortName>Malinovka.wav</ShortName>
 							<Path>SFX/Malinovka_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1826043004" Name="RXD_Medvedkovo" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Medvedkovo">
+				<Event Id="1826043004" Name="RXD_Medvedkovo" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Medvedkovo" DurationType="OneShot" DurationMin="38.920959" DurationMax="38.920959">
 					<IncludedMemoryFiles>
 						<File Id="878782006" Language="SFX">
 							<ShortName>Prokhorovka.wav</ShortName>
 							<Path>SFX/Prokhorovka_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2493706441" Name="RXD_Milbase" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Milbase">
+				<Event Id="2493706441" Name="RXD_Milbase" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Milbase" DurationType="OneShot" DurationMin="38.969894" DurationMax="38.969894">
 					<IncludedMemoryFiles>
 						<File Id="947017105" Language="SFX">
 							<ShortName>Safe_Haven.wav</ShortName>
 							<Path>SFX/Safe_Haven_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="3167875471" Name="RXD_Moon" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Moon">
+				<Event Id="3167875471" Name="RXD_Moon" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Moon" DurationType="OneShot" DurationMin="39.651291" DurationMax="39.651291">
 					<IncludedMemoryFiles>
 						<File Id="5838910" Language="SFX">
 							<ShortName>Live_Oaks.wav</ShortName>
 							<Path>SFX/Live_Oaks_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1044143053" Name="RXD_Mountain" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Mountain">
+				<Event Id="1044143053" Name="RXD_Mountain" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Mountain" DurationType="OneShot" DurationMin="33.630833" DurationMax="33.630833">
 					<IncludedMemoryFiles>
 						<File Id="946003128" Language="SFX">
 							<ShortName>Siegfried_Line.wav</ShortName>
 							<Path>SFX/Siegfried_Line_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2654303351" Name="RXD_Neptune" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Neptune">
+				<Event Id="2654303351" Name="RXD_Neptune" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Neptune" DurationType="OneShot" DurationMin="39.649353" DurationMax="39.649353">
 					<IncludedMemoryFiles>
 						<File Id="705783594" Language="SFX">
 							<ShortName>Westfield.wav</ShortName>
 							<Path>SFX/Westfield_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1356269003" Name="RXD_Plant" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Plant">
+				<Event Id="1356269003" Name="RXD_Plant" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Plant" DurationType="OneShot" DurationMin="38.787498" DurationMax="38.787498">
 					<IncludedMemoryFiles>
 						<File Id="83065943" Language="SFX">
 							<ShortName>Żywiołak.wav</ShortName>
 							<Path>SFX/Żywiołak_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2214381232" Name="RXD_Pliego" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Pliego">
+				<Event Id="2214381232" Name="RXD_Pliego" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Pliego" DurationType="OneShot" DurationMin="39.552021" DurationMax="39.552021">
 					<IncludedMemoryFiles>
 						<File Id="1037348935" Language="SFX">
 							<ShortName>Abbey.wav</ShortName>
 							<Path>SFX/Abbey_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="505542461" Name="RXD_Port" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Port">
+				<Event Id="505542461" Name="RXD_Port" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Port" DurationType="OneShot" DurationMin="34.884895" DurationMax="34.884895">
 					<IncludedMemoryFiles>
 						<File Id="603848289" Language="SFX">
 							<ShortName>Steppes.wav</ShortName>
 							<Path>SFX/Steppes_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="4214095497" Name="RXD_Rift" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rift">
+				<Event Id="4214095497" Name="RXD_Rift" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rift" DurationType="OneShot" DurationMin="39.604481" DurationMax="39.604481">
 					<IncludedMemoryFiles>
 						<File Id="8081489" Language="SFX">
 							<ShortName>Cliff.wav</ShortName>
 							<Path>SFX/Cliff_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="4264722575" Name="RXD_Rock" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rock">
+				<Event Id="4264722575" Name="RXD_Rock" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rock" DurationType="OneShot" DurationMin="39.491688" DurationMax="39.491688">
 					<IncludedMemoryFiles>
 						<File Id="273866598" Language="SFX">
 							<ShortName>Redshire.wav</ShortName>
 							<Path>SFX/Redshire_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2405950130" Name="RXD_Rudniki" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rudniki">
+				<Event Id="2405950130" Name="RXD_Rudniki" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Rudniki" DurationType="OneShot" DurationMin="39.651291" DurationMax="39.651291">
 					<IncludedMemoryFiles>
 						<File Id="311012629" Language="SFX">
 							<ShortName>Mines.wav</ShortName>
 							<Path>SFX/Mines_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="1122098492" Name="RXD_Savanna" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Savanna">
+				<Event Id="1122098492" Name="RXD_Savanna" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Savanna" DurationType="OneShot" DurationMin="35.386478" DurationMax="35.386478">
 					<IncludedMemoryFiles>
 						<File Id="419208538" Language="SFX">
 							<ShortName>Sand_River.wav</ShortName>
 							<Path>SFX/Sand_River_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="2088089717" Name="RXD_Skit" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Skit">
+				<Event Id="2088089717" Name="RXD_Skit" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\RXD_Skit" DurationType="OneShot" DurationMin="39.533669" DurationMax="39.533669">
 					<IncludedMemoryFiles>
 						<File Id="415418282" Language="SFX">
 							<ShortName>Fjords.wav</ShortName>
 							<Path>SFX/Fjords_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
+					</ActionSetState>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on" GUID="{19A0C703-7564-415F-8002-9BF8A25434DC}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

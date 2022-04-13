@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.9" WwiseBuild="7459">
+<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.14" WwiseBuild="7616">
 	<ProjectInfo>
 		<Project Name="WoTB_Sound_Mod" ID="{702D8ABE-D8B7-4693-9F84-911E09C050EC}">
 			<Platforms>
@@ -31,6 +31,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateDefinitionFile" Type="bool" Value="False"/>
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -9644,7 +9645,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>

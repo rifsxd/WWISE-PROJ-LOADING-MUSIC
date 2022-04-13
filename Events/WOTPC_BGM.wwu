@@ -15,6 +15,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{B7400B97-D2D5-4FFC-8337-A5FDDCA12B0E}" ShortID="153667974">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Desert_Train" ID="{4E709708-A809-4BFA-BB5F-8D7129DFD848}">
@@ -26,6 +36,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{492B436E-5AE0-4166-AB3E-DBA3BE93540B}" ShortID="227916127">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -43,6 +63,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4C21F2CF-5ACB-4187-A08B-C46EFEDD8907}" ShortID="676367726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Erlenberg" ID="{A09A20E3-D897-4FF0-B176-A32147156489}">
@@ -54,6 +84,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Erlenberg" ID="{7DABF8D1-94B8-44D0-BA02-63EAAE1F2096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F793A1DD-0413-4AF7-85F3-055A944A8E07}" ShortID="988312453">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -71,6 +111,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0C9B3C3C-E6F9-4252-86E6-7D70068457A3}" ShortID="642491772">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Malinovka" ID="{C56E8C38-2E04-4D65-ABAE-0F898ACF8BFA}">
@@ -82,6 +132,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Malinovka" ID="{A3E7C9BD-EDDB-4104-BD2E-18B836BBB7F4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A359FE24-FEE2-438A-84E5-E9FD6F538F71}" ShortID="707779233">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -99,6 +159,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BF0BE5D8-C3DB-4226-B1D8-A2523CC92430}" ShortID="315442200">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Moon" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}">
@@ -110,6 +180,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Moon" ID="{7DC460D7-AEA6-47D1-9840-85A0BF60BD59}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F0D797E-92A4-4157-8FF2-66295DE95ACF}" ShortID="158797065">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -127,6 +207,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BEF7A7C9-B020-4940-8181-64D9F911A256}" ShortID="209286312">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Plant" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}">
@@ -138,6 +228,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Plant" ID="{F302C24D-8A44-4924-BF9B-6C2436624761}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F957228-D09B-4CEF-8795-7D9A7FC4CDBF}" ShortID="694743633">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -155,6 +255,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{3496466A-3A39-4291-830E-A70AC5F8650B}" ShortID="1047042034">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Medvedkovo" ID="{A3639A63-22BB-4C92-9444-0B89796C8993}">
@@ -166,6 +276,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Medvedkovo" ID="{55BA804A-A2B8-47DE-BADC-CEA47D271302}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{401B4014-674C-41A0-A639-CC98B2004291}" ShortID="327305215">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -183,6 +303,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{EEEB3D98-3F6E-49F0-B70F-91DBFE25E84D}" ShortID="46647296">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Karieri" ID="{2F2BD8A9-7A97-4B0F-9907-A813A0C15E40}">
@@ -194,6 +324,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Karieri" ID="{12EBAC5E-5EA5-4D51-9563-F063566B8E95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AFE9D33-EA3C-413C-A2B0-57A305C9B1B5}" ShortID="509472193">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -211,6 +351,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{FC34D9C4-6A2B-4F8B-BF04-88BC916FF87E}" ShortID="71761783">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Holland" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}">
@@ -222,6 +372,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Holland" ID="{C570344D-0466-4418-A9F3-1BA0DC0B2A69}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39A09D3A-FE89-423D-A6F1-2CF2D975F19D}" ShortID="249040312">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -239,6 +399,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6AA18FD3-D121-410C-8724-D2A59B59F063}" ShortID="960514628">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Canyon" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}">
@@ -253,6 +423,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A4AB72F8-A534-47D6-BCD5-4237ACBB90EF}" ShortID="863738330">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Grossberg" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}">
@@ -264,6 +444,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Grossberg" ID="{A668BE1A-48E9-4541-B05C-8E63F5565E56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2357620E-8799-4F13-9574-B4F159A57D1F}" ShortID="636145265">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -287,6 +477,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6D26D5E6-A142-4A77-AA6C-1D89198573D9}" ShortID="257254173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Skit" ID="{4C84142C-E88F-4491-ACBA-B429041D3CD8}">
@@ -298,6 +498,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Skit" ID="{B59DC8DD-53B4-4F3F-B15F-05B1BB563918}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02491907-2450-4B43-9487-2E5375551755}" ShortID="626247147">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -315,6 +525,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8A427727-6174-4F00-9EE2-CD772DA8D81B}" ShortID="96147932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Savanna" ID="{25F50EE5-974C-4AC4-A815-6CA53A16B1F6}">
@@ -326,6 +546,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Savanna" ID="{49074BFE-FF24-4686-9A0F-180E843C88C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D197232A-6705-482C-90A4-A4FCCC3FFCA4}" ShortID="219308763">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -343,6 +573,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8DB189FB-984F-4A8B-B5A5-5A84DAD6560C}" ShortID="1037443412">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Iceworld" ID="{AD043681-CFFE-4743-9028-28686AC337F4}">
@@ -354,6 +594,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Iceworld" ID="{33B1C2C2-0A1F-4975-8F1C-832DBFF987B7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64FBB70B-6156-447D-987C-81A0B10763C9}" ShortID="20934327">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -371,6 +621,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6EB98CAB-BF41-46D7-A0AF-74D01C4FB3B0}" ShortID="128299744">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Himmelsdorf" ID="{CD5B34C0-6C56-49C1-9313-27C7F86F4996}">
@@ -385,6 +645,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4549DC87-ADE5-462B-96DB-4F726BABF332}" ShortID="709463883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Rudniki" ID="{4242565F-B15B-412F-B305-D3F02C04F730}">
@@ -393,6 +663,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Rudniki" ID="{037D5BAD-1384-4804-B41C-898C92322FB9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4FCF4160-0C81-4723-8FAD-ABE70AF26413}" ShortID="1059643491">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -410,6 +690,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{AD0B820D-B2BA-4A23-9C1C-F07D01A4DCD7}" ShortID="958636776">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Rock" ID="{5C5CF589-9477-4BFF-BDEE-53DC61FBD827}">
@@ -424,6 +714,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{57883393-4F79-47A7-82E3-6BDE8888A337}" ShortID="97923621">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RXD_Canal" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}">
@@ -435,6 +735,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Canal" ID="{E097A596-B935-437B-BC69-E92CFDFDE50A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA88A967-E82F-4269-A8B9-C2470DFBD5B5}" ShortID="420406547">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
