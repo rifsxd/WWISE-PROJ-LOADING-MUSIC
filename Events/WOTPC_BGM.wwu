@@ -3,753 +3,1195 @@
 	<Events>
 		<WorkUnit Name="WOTPC_BGM" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" OwnerID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="RXD_Amigosville" ID="{764D6C08-0E5F-4E0E-A7B9-8236BA5B24FA}">
+				<Folder Name="Intro" ID="{3AFE80A3-70C2-4550-A18C-CA69B0722005}" ShortID="863571650">
 					<ChildrenList>
-						<Action Name="" ID="{42389E8F-75F9-4D35-8D86-D77FBE79C177}" ShortID="913716358">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amigosville" ID="{F13694D6-A897-4420-948F-39D69E6CB974}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B7400B97-D2D5-4FFC-8337-A5FDDCA12B0E}" ShortID="153667974">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="RXD_Milbase_Intro" ID="{0478D11B-6A51-41DD-B700-9C55B90C146C}">
+							<ChildrenList>
+								<Action Name="" ID="{9308469A-1DF5-4BD3-B8FC-FE7B525DF7C1}" ShortID="980967667">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Milbase" ID="{5C7FD4AC-F345-4907-8D7B-75FCA022B062}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6EB98CAB-BF41-46D7-A0AF-74D01C4FB3B0}" ShortID="128299744">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rock_Intro" ID="{5C5CF589-9477-4BFF-BDEE-53DC61FBD827}">
+							<ChildrenList>
+								<Action Name="" ID="{3C64CF10-FA67-4F5E-A1DC-0EDF2642568F}" ShortID="847939633">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock" ID="{865521AB-3834-4B3E-B0DD-4766CE9408E0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{57883393-4F79-47A7-82E3-6BDE8888A337}" ShortID="97923621">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Grossberg_Intro" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}">
+							<ChildrenList>
+								<Action Name="" ID="{C65F7F38-097A-49E3-B037-44F2ADE5D926}" ShortID="778419864">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grossberg" ID="{A668BE1A-48E9-4541-B05C-8E63F5565E56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2357620E-8799-4F13-9574-B4F159A57D1F}" ShortID="636145265">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Savanna_Intro" ID="{25F50EE5-974C-4AC4-A815-6CA53A16B1F6}">
+							<ChildrenList>
+								<Action Name="" ID="{47E24202-6EFD-4593-A40E-19474B5FF461}" ShortID="96723548">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Savanna" ID="{49074BFE-FF24-4686-9A0F-180E843C88C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D197232A-6705-482C-90A4-A4FCCC3FFCA4}" ShortID="219308763">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Canyon_Intro" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}">
+							<ChildrenList>
+								<Action Name="" ID="{26E4A8DA-34F3-4390-B3EF-BC10545E1D14}" ShortID="236636046">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Canyon" ID="{7AD07BE7-73E1-4F89-888B-7FD965D1354B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A4AB72F8-A534-47D6-BCD5-4237ACBB90EF}" ShortID="863738330">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Holland_Intro" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}">
+							<ChildrenList>
+								<Action Name="" ID="{B1702967-3823-44CB-B03A-C7A7D4A21078}" ShortID="888721029">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Holland" ID="{C570344D-0466-4418-A9F3-1BA0DC0B2A69}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{39A09D3A-FE89-423D-A6F1-2CF2D975F19D}" ShortID="249040312">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Skit_Intro" ID="{4C84142C-E88F-4491-ACBA-B429041D3CD8}">
+							<ChildrenList>
+								<Action Name="" ID="{F8BE0766-D59A-4C6A-899E-29194CF4652C}" ShortID="449920553">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skit" ID="{B59DC8DD-53B4-4F3F-B15F-05B1BB563918}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02491907-2450-4B43-9487-2E5375551755}" ShortID="626247147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Fort_Intro" ID="{190D73D7-9D04-4492-A7BD-AF37654A67A9}">
+							<ChildrenList>
+								<Action Name="" ID="{BCC3BD33-B2DC-4B51-89F3-C17EE695DD8D}" ShortID="715107153">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fort" ID="{C4609998-77B4-44C3-977B-A32F158993F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8DB189FB-984F-4A8B-B5A5-5A84DAD6560C}" ShortID="1037443412">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Himmelsdorf_Intro" ID="{CD5B34C0-6C56-49C1-9313-27C7F86F4996}">
+							<ChildrenList>
+								<Action Name="" ID="{C30F80D4-E5F3-4912-817A-6F4134B67037}" ShortID="172467341">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Himmelsdorf" ID="{FD3E73D6-AED6-4E77-AA7D-2CF057C40558}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4549DC87-ADE5-462B-96DB-4F726BABF332}" ShortID="709463883">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rudniki_Intro" ID="{4242565F-B15B-412F-B305-D3F02C04F730}">
+							<ChildrenList>
+								<Action Name="" ID="{E1DC9579-A569-43A4-A0E3-7AB409781835}" ShortID="914270364">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rudniki" ID="{037D5BAD-1384-4804-B41C-898C92322FB9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4FCF4160-0C81-4723-8FAD-ABE70AF26413}" ShortID="1059643491">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Canal_Intro" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}">
+							<ChildrenList>
+								<Action Name="" ID="{8606020F-96DD-4DD1-8E56-4E4F08BA0D08}" ShortID="1053488854">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Canal" ID="{E097A596-B935-437B-BC69-E92CFDFDE50A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA88A967-E82F-4269-A8B9-C2470DFBD5B5}" ShortID="420406547">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Port_Intro" ID="{C8C66E25-E05F-4DCE-88DF-BD84B45F1373}">
+							<ChildrenList>
+								<Action Name="" ID="{79421548-9118-4CFB-B49E-E9BD4D2C519E}" ShortID="75346610">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Port" ID="{A63B7ACB-B7AF-4676-96A0-66600CB48A54}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8A427727-6174-4F00-9EE2-CD772DA8D81B}" ShortID="96147932">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Pliego_Intro" ID="{7F6B7011-6915-450A-884D-713BADDBE0DB}">
+							<ChildrenList>
+								<Action Name="" ID="{4151A219-A4E6-4B81-B75A-7E362FF86F19}" ShortID="230488618">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{00421764-B4B8-4AAA-9A82-BFA3AF7BAB3D}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pliego" ID="{BCB0384A-9B88-45E9-B015-B0834299A096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D26D5E6-A142-4A77-AA6C-1D89198573D9}" ShortID="257254173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Holmeisk_Intro" ID="{D70839BD-8CEA-44E3-A73E-FEB51E7F93C8}">
+							<ChildrenList>
+								<Action Name="" ID="{4639FA2C-EB57-491E-8A47-6FFF7BB59D81}" ShortID="688742004">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Holmeisk" ID="{84E3A4A5-8EA1-4067-9F9A-94780DB768C3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6AA18FD3-D121-410C-8724-D2A59B59F063}" ShortID="960514628">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rift_Intro" ID="{756E18F9-A5ED-45A3-B3B7-2FBD9B89A942}">
+							<ChildrenList>
+								<Action Name="" ID="{2D1753AE-6756-43EB-B5FE-AFE3954C2E03}" ShortID="15106282">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rift" ID="{17926CC9-F63F-4E12-A1CA-12E88B2D4F8B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AD0B820D-B2BA-4A23-9C1C-F07D01A4DCD7}" ShortID="958636776">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Iceworld_Intro" ID="{AD043681-CFFE-4743-9028-28686AC337F4}">
+							<ChildrenList>
+								<Action Name="" ID="{2D41B0AC-5A2E-4516-A669-ED2D79AB9B25}" ShortID="804923285">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Iceworld" ID="{33B1C2C2-0A1F-4975-8F1C-832DBFF987B7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{64FBB70B-6156-447D-987C-81A0B10763C9}" ShortID="20934327">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Desert_Train_Intro" ID="{4E709708-A809-4BFA-BB5F-8D7129DFD848}">
+							<ChildrenList>
+								<Action Name="" ID="{E98B569A-4428-4646-B6D9-FE47496CD4B3}" ShortID="150372925">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{492B436E-5AE0-4166-AB3E-DBA3BE93540B}" ShortID="227916127">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Forgecity_Intro" ID="{CDD8E870-1121-41CB-BB8F-D11DEFAB17AA}">
+							<ChildrenList>
+								<Action Name="" ID="{3A115A18-442A-4E98-A1D3-8E09C388B82A}" ShortID="619463509">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forgecity" ID="{1451C6B9-9EC4-4EF1-A81C-315B3F3299D0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BF0BE5D8-C3DB-4226-B1D8-A2523CC92430}" ShortID="315442200">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Erlenberg_Intro" ID="{A09A20E3-D897-4FF0-B176-A32147156489}">
+							<ChildrenList>
+								<Action Name="" ID="{2B5755A8-83F0-48B3-96CF-CCC5927165BE}" ShortID="1067845255">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Erlenberg" ID="{7DABF8D1-94B8-44D0-BA02-63EAAE1F2096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F793A1DD-0413-4AF7-85F3-055A944A8E07}" ShortID="988312453">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Malinovka_Intro" ID="{C56E8C38-2E04-4D65-ABAE-0F898ACF8BFA}">
+							<ChildrenList>
+								<Action Name="" ID="{289A8BF0-14E9-4DA3-8E3E-FEE41D1642F4}" ShortID="72265611">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Malinovka" ID="{A3E7C9BD-EDDB-4104-BD2E-18B836BBB7F4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A359FE24-FEE2-438A-84E5-E9FD6F538F71}" ShortID="707779233">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Neptune_Intro" ID="{2CC3945B-78BC-4031-8742-E54B7A4FFAC5}">
+							<ChildrenList>
+								<Action Name="" ID="{0FC019D8-8059-449B-ABE7-DA668B474587}" ShortID="422049696">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Neptune" ID="{AE8A3010-006F-4BB5-B3EC-B8502FD8CC6F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0C9B3C3C-E6F9-4252-86E6-7D70068457A3}" ShortID="642491772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Lumber_Intro" ID="{69BD309B-6C3D-41AF-BB84-53269C64C5CD}">
+							<ChildrenList>
+								<Action Name="" ID="{E2AF3AB0-9A87-4C5B-B036-285C7EE91ACA}" ShortID="977109880">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lumber" ID="{C835B38C-A5BF-4AC5-99E8-6185117A010D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C21F2CF-5ACB-4187-A08B-C46EFEDD8907}" ShortID="676367726">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Moon_Intro" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}">
+							<ChildrenList>
+								<Action Name="" ID="{8C3DB781-159C-4670-865D-655596F10FD8}" ShortID="519410233">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moon" ID="{7DC460D7-AEA6-47D1-9840-85A0BF60BD59}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1F0D797E-92A4-4157-8FF2-66295DE95ACF}" ShortID="158797065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Mountain_Intro" ID="{8E3C179B-D466-4A1B-B93D-C0AF36B9E3FF}">
+							<ChildrenList>
+								<Action Name="" ID="{7302EB36-F02C-46C2-9303-D786797BAB5E}" ShortID="708665668">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mountain" ID="{F6ACCDFF-F458-48CB-A5AB-FFEBA2FE34A9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BEF7A7C9-B020-4940-8181-64D9F911A256}" ShortID="209286312">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Plant_Intro" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}">
+							<ChildrenList>
+								<Action Name="" ID="{0415D638-7959-404A-8B75-6E59B35AEF98}" ShortID="547364592">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plant" ID="{F302C24D-8A44-4924-BF9B-6C2436624761}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3F957228-D09B-4CEF-8795-7D9A7FC4CDBF}" ShortID="694743633">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Amigosville_Intro" ID="{764D6C08-0E5F-4E0E-A7B9-8236BA5B24FA}">
+							<ChildrenList>
+								<Action Name="" ID="{42389E8F-75F9-4D35-8D86-D77FBE79C177}" ShortID="913716358">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amigosville" ID="{F13694D6-A897-4420-948F-39D69E6CB974}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B7400B97-D2D5-4FFC-8337-A5FDDCA12B0E}" ShortID="153667974">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Medvedkovo_Intro" ID="{A3639A63-22BB-4C92-9444-0B89796C8993}">
+							<ChildrenList>
+								<Action Name="" ID="{703BF66C-2111-4E77-933C-A65A023F865A}" ShortID="491889768">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Medvedkovo" ID="{55BA804A-A2B8-47DE-BADC-CEA47D271302}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{401B4014-674C-41A0-A639-CC98B2004291}" ShortID="327305215">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Faust_Intro" ID="{52FCC68D-41B8-4658-A5B0-ACF937D38AB0}">
+							<ChildrenList>
+								<Action Name="" ID="{810EF24F-E956-4B15-B7E3-DABA2D6DDDD1}" ShortID="901158840">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Faust" ID="{0DFB33C2-3764-4BD7-B86D-64BBBA2B6396}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EEEB3D98-3F6E-49F0-B70F-91DBFE25E84D}" ShortID="46647296">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Karieri_Intro" ID="{2F2BD8A9-7A97-4B0F-9907-A813A0C15E40}">
+							<ChildrenList>
+								<Action Name="" ID="{1B92194D-168F-4D5C-A8F9-0826729F7965}" ShortID="914303488">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Karieri" ID="{12EBAC5E-5EA5-4D51-9563-F063566B8E95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8AFE9D33-EA3C-413C-A2B0-57A305C9B1B5}" ShortID="509472193">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Karelia_Intro" ID="{F75ADE28-EA7C-4DEE-A856-CA152012B7CE}">
+							<ChildrenList>
+								<Action Name="" ID="{A10193C5-6529-4082-8580-9137A42C071A}" ShortID="734693384">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Karelia" ID="{F664D670-6E0E-40FE-9AC9-3C84AED190F0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3496466A-3A39-4291-830E-A70AC5F8650B}" ShortID="1047042034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Italy_Intro" ID="{DA06FA38-1F33-4FB9-ADEC-987BCB6689AA}">
+							<ChildrenList>
+								<Action Name="" ID="{AA67671C-B8CA-499E-B083-968353922044}" ShortID="869716661">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Italy" ID="{04321536-A909-444D-B5BF-CEB1940D60C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FC34D9C4-6A2B-4F8B-BF04-88BC916FF87E}" ShortID="71761783">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Desert_Train" ID="{4E709708-A809-4BFA-BB5F-8D7129DFD848}">
+				</Folder>
+				<Folder Name="Battle" ID="{0EED75BB-AB24-47BE-908C-35D220ECC23D}" ShortID="786160751">
 					<ChildrenList>
-						<Action Name="" ID="{E98B569A-4428-4646-B6D9-FE47496CD4B3}" ShortID="150372925">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Desert_Train" ID="{0AFD2BDF-C9C2-48EE-ABA2-53E735027CEC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{492B436E-5AE0-4166-AB3E-DBA3BE93540B}" ShortID="227916127">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="RXD_Milbase_Battle" ID="{6A86BA17-3853-4CAF-BDAA-F957234DC0F0}">
+							<ChildrenList>
+								<Action Name="" ID="{53BFAD01-3976-4542-A282-81E7AE06E9BE}" ShortID="434849651">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Milbase" ID="{FE074BD5-1116-4EAE-A49B-569ADEA16AAE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rock_Battle" ID="{6B3B053C-AF91-4952-A4B0-678A718FFDF7}">
+							<ChildrenList>
+								<Action Name="" ID="{B311D9EB-E8DB-432D-A0B1-CA986C61DF9F}" ShortID="988992485">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock" ID="{AC63EC13-DC84-41CF-A754-54506C226030}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Grossberg_Battle" ID="{9BCEB2D3-E66B-443F-8A49-678AB08CB317}">
+							<ChildrenList>
+								<Action Name="" ID="{641D2C49-73F5-4AAC-9DE0-B85C66F5B7E4}" ShortID="25816412">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grossberg" ID="{34E2FFAA-7A3A-484B-9C96-6B42829C9E42}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Savanna_Battle" ID="{B34263B2-6173-4026-88F9-0C3B01598196}">
+							<ChildrenList>
+								<Action Name="" ID="{5F6412A5-8CE9-4E23-81A4-25E66EBDCDFA}" ShortID="534854560">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Savanna" ID="{C036CEC6-8A40-435C-A1AF-98B1210B8FF5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Canyon_Battle" ID="{735A61D9-EB36-40E4-9B8F-7C9563E5A90D}">
+							<ChildrenList>
+								<Action Name="" ID="{4B52CD08-8116-4E86-9608-9AD527794770}" ShortID="392149247">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Canyon" ID="{E8A1939B-8513-4CD9-BFA6-195BAA66B8CE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Holland_Battle" ID="{6338D1C9-BEDF-49FE-871D-DB2770DAAD2F}">
+							<ChildrenList>
+								<Action Name="" ID="{8C3B5F23-F063-4C92-8586-FEACB1B91C51}" ShortID="250018193">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Holland" ID="{A9B1483A-8E4B-417D-80FF-F60D383622FF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Skit_Battle" ID="{D00120F8-E494-4C05-8B6E-5A08C3DCD630}">
+							<ChildrenList>
+								<Action Name="" ID="{8E943DA7-8980-43C1-8A06-01FDFD316BA9}" ShortID="366349752">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skit" ID="{DF6FD40A-AEDE-46FA-BB3A-A3B915A6620D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Fort_Battle" ID="{1AB6A20B-8215-4781-8F71-F12EF05E1085}">
+							<ChildrenList>
+								<Action Name="" ID="{F6A38C17-C796-472F-AFAE-C810F08CA591}" ShortID="429155437">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fort" ID="{E48C0255-A21B-46A0-8485-4CA8A7391576}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Himmelsdorf_Battle" ID="{DE251788-4C62-4BC4-92D8-047CD7C281AB}">
+							<ChildrenList>
+								<Action Name="" ID="{4A343CCD-7EEA-43A4-9B06-6597A4AF11E4}" ShortID="486500070">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Himmelsdorf" ID="{23A5A4EA-CFED-4E33-8148-36CA4689CEDD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rudniki_Battle" ID="{2F17CC5F-3E60-43D7-AB4B-2B29A3D5970C}">
+							<ChildrenList>
+								<Action Name="" ID="{D521581F-931B-4D1E-B3DF-0E9E98D8C819}" ShortID="350546087">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rudniki" ID="{5D49F9B2-23D8-4064-A1E2-A458CB2F76E8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Canal_Battle" ID="{63AB0BAE-AE16-4014-A663-3498BB36A08B}">
+							<ChildrenList>
+								<Action Name="" ID="{6432B850-E201-4CF1-AEB6-B54E1CEF7F85}" ShortID="1071388138">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Canal" ID="{6D9A7819-15DF-4C81-A2A0-D03DAC2412BF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Port_Battle" ID="{98A43A55-373F-4880-8D28-99D13737B359}">
+							<ChildrenList>
+								<Action Name="" ID="{C310D43E-64FD-413A-9A8E-D842E2AFD785}" ShortID="680398921">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Port" ID="{316B9D29-E00C-4B4E-9471-898AEDCC3A50}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Pliego_Battle" ID="{C96CD03E-2FF8-4475-886F-98DDF4D60040}">
+							<ChildrenList>
+								<Action Name="" ID="{A90CFBD4-90CD-42BC-95FA-2B7119CA510F}" ShortID="3185265">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pliego" ID="{71D7C929-BFF7-49AB-8371-47B76A8D0899}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Holmeisk_Battle" ID="{447E2E4A-A96E-4355-A492-1FD31ADFC54C}">
+							<ChildrenList>
+								<Action Name="" ID="{D91B1D7F-DEA0-4ED8-8357-CDD16BB6D8E2}" ShortID="990289819">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Holmeisk" ID="{CE3CDB31-6E27-4A59-A0E6-4931445EFF5F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Rift_Battle" ID="{951B0675-3BB8-4A6C-9D69-57B44FDBCFD9}">
+							<ChildrenList>
+								<Action Name="" ID="{53D5637D-964D-4637-8EF0-1C2ACF860F7C}" ShortID="281484446">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rift" ID="{93E23DAF-3706-4DD1-8085-2899FAD51A35}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Iceworld_Battle" ID="{83F264BD-E4E7-4018-8BAB-2AE5551AEDA0}">
+							<ChildrenList>
+								<Action Name="" ID="{00F6E302-1E07-4C0E-B452-F13AE37B547C}" ShortID="1039098281">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Iceworld" ID="{846F0B83-F404-47FE-9DDE-1ABB7ACAB8BA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Desert_Train_Battle" ID="{F39065D1-789E-4CBC-AA18-B3AE4AA6B406}">
+							<ChildrenList>
+								<Action Name="" ID="{8E05C9DF-1DE7-460D-80A3-074608B4F571}" ShortID="962256100">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert_Train" ID="{67E70CE2-A29D-47C0-9EE9-3C83AD6F428D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Forgecity_Battle" ID="{C9A23CF2-9EC1-48D0-A256-A9BA34096F65}">
+							<ChildrenList>
+								<Action Name="" ID="{74DBFBF6-B052-4D28-82D6-769C1A0EA625}" ShortID="1006236154">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forgecity" ID="{434D3E34-399B-4D94-8E33-702B19077553}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Erlenberg_Battle" ID="{9478E6B7-F872-4694-A4A4-B2CCC7DC7853}">
+							<ChildrenList>
+								<Action Name="" ID="{C67D1578-EB69-47CE-9014-F89CAC17F99B}" ShortID="648511807">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Erlenberg" ID="{A25FC3F5-0CAB-487C-9BFF-32E642650B3F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Malinovka_Battle" ID="{CC88B832-FD97-4973-AE9B-4EA2A94ACBF5}">
+							<ChildrenList>
+								<Action Name="" ID="{7FAE9B90-0A5C-493F-9D9D-26A696227867}" ShortID="575578053">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Malinovka" ID="{074C8955-25FB-4D21-B3F4-12216C4D8A12}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Neptune_Battle" ID="{29E383C8-DABA-4C14-A93F-E389029CDF3B}">
+							<ChildrenList>
+								<Action Name="" ID="{FD902545-1E32-466A-A600-0A42607E2302}" ShortID="822036250">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Neptune" ID="{0B1CB0DD-B69F-4732-9DFA-DAC266B2B6F7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Lumber_Battle" ID="{E445EF92-0ED4-4B9A-8C57-1A9558AC4C1C}">
+							<ChildrenList>
+								<Action Name="" ID="{4C0B51CE-992A-48FA-9AA0-9B9C077E6802}" ShortID="313872822">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lumber" ID="{56CFE874-00B3-480E-9EED-0E5532A9E107}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Moon_Battle" ID="{BE5CDD8D-C474-495C-8C12-85D66745685C}">
+							<ChildrenList>
+								<Action Name="" ID="{93C78954-FE75-4AC2-A6FD-943066BE9945}" ShortID="582059196">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moon" ID="{6D10D97E-76EF-4BB5-8FE9-48A9CB1D6439}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Mountain_Battle" ID="{B50DA1F1-E7A2-4013-BBC3-890EC314D562}">
+							<ChildrenList>
+								<Action Name="" ID="{2BB3E511-CD66-46E6-AA5D-89F285770643}" ShortID="139542810">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mountain" ID="{7CE3BC7C-4383-4A81-A563-87A91E23CCCA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Plant_Battle" ID="{8EF56853-27EC-43BA-B543-A24041E4A22D}">
+							<ChildrenList>
+								<Action Name="" ID="{217E95F6-81A9-497F-AB63-79121A98DB59}" ShortID="954335426">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plant" ID="{A56CB63A-ABF1-420B-B3E8-EE05428F284E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Amigosville_Battle" ID="{0D10BEFB-5498-47F5-A32A-1D84259B7C5B}">
+							<ChildrenList>
+								<Action Name="" ID="{09900D8B-D520-4298-BBE7-431648C651E7}" ShortID="836128800">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amigosville" ID="{2CD7A0EF-96E8-4B7A-9717-476FA4EE45E1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Medvedkovo_Battle" ID="{F6173D2D-B753-4ED3-87E0-DF65B3F8006E}">
+							<ChildrenList>
+								<Action Name="" ID="{E82017BC-093F-4444-90FE-1FDBFFD4600F}" ShortID="435890263">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Medvedkovo" ID="{1829E981-6AFC-4054-BC93-150B701859AB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Faust_Battle" ID="{8CCF52EB-4980-4C22-AC7A-401AA00A128B}">
+							<ChildrenList>
+								<Action Name="" ID="{D8954435-E5E6-4345-B018-3DA73F9A769D}" ShortID="1054097644">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Faust" ID="{3F65BB81-6CF4-4720-A92E-556653C74829}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Karieri_Battle" ID="{2B8110B0-CA5F-4191-A770-31A0E83DB092}">
+							<ChildrenList>
+								<Action Name="" ID="{FC385011-84A4-4AC8-AC5C-064C66FD4EA9}" ShortID="488913312">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Karieri" ID="{84AB27D9-F91C-4187-A06E-2D1923896A1B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Karelia_Battle" ID="{F19F5035-3FD5-437B-B20A-EA79DF887B14}">
+							<ChildrenList>
+								<Action Name="" ID="{3A574EE6-20BC-43E7-8080-BC81620FAEAE}" ShortID="916567907">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Karelia" ID="{E15086D6-A402-469A-A804-8CE3EF1CBA38}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_Italy_Battle" ID="{FF1D993F-7D13-4F54-88E3-3338F59B48C1}">
+							<ChildrenList>
+								<Action Name="" ID="{ACC36877-CE90-4880-848A-1EA15EBB3CBF}" ShortID="786875450">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="120"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Italy" ID="{1DC819E5-25BD-4A15-8F19-6D44B768CCE7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Lumber" ID="{69BD309B-6C3D-41AF-BB84-53269C64C5CD}">
-					<ChildrenList>
-						<Action Name="" ID="{E2AF3AB0-9A87-4C5B-B036-285C7EE91ACA}" ShortID="977109880">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Lumber" ID="{C835B38C-A5BF-4AC5-99E8-6185117A010D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4C21F2CF-5ACB-4187-A08B-C46EFEDD8907}" ShortID="676367726">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Erlenberg" ID="{A09A20E3-D897-4FF0-B176-A32147156489}">
-					<ChildrenList>
-						<Action Name="" ID="{2B5755A8-83F0-48B3-96CF-CCC5927165BE}" ShortID="1067845255">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Erlenberg" ID="{7DABF8D1-94B8-44D0-BA02-63EAAE1F2096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F793A1DD-0413-4AF7-85F3-055A944A8E07}" ShortID="988312453">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Neptune" ID="{2CC3945B-78BC-4031-8742-E54B7A4FFAC5}">
-					<ChildrenList>
-						<Action Name="" ID="{0FC019D8-8059-449B-ABE7-DA668B474587}" ShortID="422049696">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Neptune" ID="{AE8A3010-006F-4BB5-B3EC-B8502FD8CC6F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{0C9B3C3C-E6F9-4252-86E6-7D70068457A3}" ShortID="642491772">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Malinovka" ID="{C56E8C38-2E04-4D65-ABAE-0F898ACF8BFA}">
-					<ChildrenList>
-						<Action Name="" ID="{289A8BF0-14E9-4DA3-8E3E-FEE41D1642F4}" ShortID="72265611">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Malinovka" ID="{A3E7C9BD-EDDB-4104-BD2E-18B836BBB7F4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A359FE24-FEE2-438A-84E5-E9FD6F538F71}" ShortID="707779233">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Forgecity" ID="{CDD8E870-1121-41CB-BB8F-D11DEFAB17AA}">
-					<ChildrenList>
-						<Action Name="" ID="{3A115A18-442A-4E98-A1D3-8E09C388B82A}" ShortID="619463509">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Forgecity" ID="{1451C6B9-9EC4-4EF1-A81C-315B3F3299D0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{BF0BE5D8-C3DB-4226-B1D8-A2523CC92430}" ShortID="315442200">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Moon" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}">
-					<ChildrenList>
-						<Action Name="" ID="{8C3DB781-159C-4670-865D-655596F10FD8}" ShortID="519410233">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Moon" ID="{7DC460D7-AEA6-47D1-9840-85A0BF60BD59}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{1F0D797E-92A4-4157-8FF2-66295DE95ACF}" ShortID="158797065">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Mountain" ID="{8E3C179B-D466-4A1B-B93D-C0AF36B9E3FF}">
-					<ChildrenList>
-						<Action Name="" ID="{7302EB36-F02C-46C2-9303-D786797BAB5E}" ShortID="708665668">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mountain" ID="{F6ACCDFF-F458-48CB-A5AB-FFEBA2FE34A9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{BEF7A7C9-B020-4940-8181-64D9F911A256}" ShortID="209286312">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Plant" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}">
-					<ChildrenList>
-						<Action Name="" ID="{0415D638-7959-404A-8B75-6E59B35AEF98}" ShortID="547364592">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Plant" ID="{F302C24D-8A44-4924-BF9B-6C2436624761}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{3F957228-D09B-4CEF-8795-7D9A7FC4CDBF}" ShortID="694743633">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Karelia" ID="{F75ADE28-EA7C-4DEE-A856-CA152012B7CE}">
-					<ChildrenList>
-						<Action Name="" ID="{A10193C5-6529-4082-8580-9137A42C071A}" ShortID="734693384">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Karelia" ID="{F664D670-6E0E-40FE-9AC9-3C84AED190F0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{3496466A-3A39-4291-830E-A70AC5F8650B}" ShortID="1047042034">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Medvedkovo" ID="{A3639A63-22BB-4C92-9444-0B89796C8993}">
-					<ChildrenList>
-						<Action Name="" ID="{703BF66C-2111-4E77-933C-A65A023F865A}" ShortID="491889768">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Medvedkovo" ID="{55BA804A-A2B8-47DE-BADC-CEA47D271302}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{401B4014-674C-41A0-A639-CC98B2004291}" ShortID="327305215">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Faust" ID="{52FCC68D-41B8-4658-A5B0-ACF937D38AB0}">
-					<ChildrenList>
-						<Action Name="" ID="{810EF24F-E956-4B15-B7E3-DABA2D6DDDD1}" ShortID="901158840">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Faust" ID="{0DFB33C2-3764-4BD7-B86D-64BBBA2B6396}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{EEEB3D98-3F6E-49F0-B70F-91DBFE25E84D}" ShortID="46647296">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Karieri" ID="{2F2BD8A9-7A97-4B0F-9907-A813A0C15E40}">
-					<ChildrenList>
-						<Action Name="" ID="{1B92194D-168F-4D5C-A8F9-0826729F7965}" ShortID="914303488">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Karieri" ID="{12EBAC5E-5EA5-4D51-9563-F063566B8E95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{8AFE9D33-EA3C-413C-A2B0-57A305C9B1B5}" ShortID="509472193">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Italy" ID="{DA06FA38-1F33-4FB9-ADEC-987BCB6689AA}">
-					<ChildrenList>
-						<Action Name="" ID="{AA67671C-B8CA-499E-B083-968353922044}" ShortID="869716661">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Italy" ID="{04321536-A909-444D-B5BF-CEB1940D60C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{FC34D9C4-6A2B-4F8B-BF04-88BC916FF87E}" ShortID="71761783">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Holland" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}">
-					<ChildrenList>
-						<Action Name="" ID="{B1702967-3823-44CB-B03A-C7A7D4A21078}" ShortID="888721029">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Holland" ID="{C570344D-0466-4418-A9F3-1BA0DC0B2A69}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{39A09D3A-FE89-423D-A6F1-2CF2D975F19D}" ShortID="249040312">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Holmeisk" ID="{D70839BD-8CEA-44E3-A73E-FEB51E7F93C8}">
-					<ChildrenList>
-						<Action Name="" ID="{4639FA2C-EB57-491E-8A47-6FFF7BB59D81}" ShortID="688742004">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Holmeisk" ID="{84E3A4A5-8EA1-4067-9F9A-94780DB768C3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6AA18FD3-D121-410C-8724-D2A59B59F063}" ShortID="960514628">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Canyon" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}">
-					<ChildrenList>
-						<Action Name="" ID="{26E4A8DA-34F3-4390-B3EF-BC10545E1D14}" ShortID="236636046">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Canyon" ID="{7AD07BE7-73E1-4F89-888B-7FD965D1354B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A4AB72F8-A534-47D6-BCD5-4237ACBB90EF}" ShortID="863738330">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Grossberg" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}">
-					<ChildrenList>
-						<Action Name="" ID="{C65F7F38-097A-49E3-B037-44F2ADE5D926}" ShortID="778419864">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Grossberg" ID="{A668BE1A-48E9-4541-B05C-8E63F5565E56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{2357620E-8799-4F13-9574-B4F159A57D1F}" ShortID="636145265">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Pliego" ID="{7F6B7011-6915-450A-884D-713BADDBE0DB}">
-					<ChildrenList>
-						<Action Name="" ID="{4151A219-A4E6-4B81-B75A-7E362FF86F19}" ShortID="230488618">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{00421764-B4B8-4AAA-9A82-BFA3AF7BAB3D}"/>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pliego" ID="{BCB0384A-9B88-45E9-B015-B0834299A096}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6D26D5E6-A142-4A77-AA6C-1D89198573D9}" ShortID="257254173">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Skit" ID="{4C84142C-E88F-4491-ACBA-B429041D3CD8}">
-					<ChildrenList>
-						<Action Name="" ID="{F8BE0766-D59A-4C6A-899E-29194CF4652C}" ShortID="449920553">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Skit" ID="{B59DC8DD-53B4-4F3F-B15F-05B1BB563918}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{02491907-2450-4B43-9487-2E5375551755}" ShortID="626247147">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Port" ID="{C8C66E25-E05F-4DCE-88DF-BD84B45F1373}">
-					<ChildrenList>
-						<Action Name="" ID="{79421548-9118-4CFB-B49E-E9BD4D2C519E}" ShortID="75346610">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Port" ID="{A63B7ACB-B7AF-4676-96A0-66600CB48A54}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{8A427727-6174-4F00-9EE2-CD772DA8D81B}" ShortID="96147932">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Savanna" ID="{25F50EE5-974C-4AC4-A815-6CA53A16B1F6}">
-					<ChildrenList>
-						<Action Name="" ID="{47E24202-6EFD-4593-A40E-19474B5FF461}" ShortID="96723548">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Savanna" ID="{49074BFE-FF24-4686-9A0F-180E843C88C2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D197232A-6705-482C-90A4-A4FCCC3FFCA4}" ShortID="219308763">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Fort" ID="{190D73D7-9D04-4492-A7BD-AF37654A67A9}">
-					<ChildrenList>
-						<Action Name="" ID="{BCC3BD33-B2DC-4B51-89F3-C17EE695DD8D}" ShortID="715107153">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Fort" ID="{C4609998-77B4-44C3-977B-A32F158993F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{8DB189FB-984F-4A8B-B5A5-5A84DAD6560C}" ShortID="1037443412">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Iceworld" ID="{AD043681-CFFE-4743-9028-28686AC337F4}">
-					<ChildrenList>
-						<Action Name="" ID="{2D41B0AC-5A2E-4516-A669-ED2D79AB9B25}" ShortID="804923285">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Iceworld" ID="{33B1C2C2-0A1F-4975-8F1C-832DBFF987B7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{64FBB70B-6156-447D-987C-81A0B10763C9}" ShortID="20934327">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Milbase" ID="{0478D11B-6A51-41DD-B700-9C55B90C146C}">
-					<ChildrenList>
-						<Action Name="" ID="{9308469A-1DF5-4BD3-B8FC-FE7B525DF7C1}" ShortID="980967667">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Milbase" ID="{5C7FD4AC-F345-4907-8D7B-75FCA022B062}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6EB98CAB-BF41-46D7-A0AF-74D01C4FB3B0}" ShortID="128299744">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Himmelsdorf" ID="{CD5B34C0-6C56-49C1-9313-27C7F86F4996}">
-					<ChildrenList>
-						<Action Name="" ID="{C30F80D4-E5F3-4912-817A-6F4134B67037}" ShortID="172467341">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Himmelsdorf" ID="{FD3E73D6-AED6-4E77-AA7D-2CF057C40558}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4549DC87-ADE5-462B-96DB-4F726BABF332}" ShortID="709463883">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Rudniki" ID="{4242565F-B15B-412F-B305-D3F02C04F730}">
-					<ChildrenList>
-						<Action Name="" ID="{E1DC9579-A569-43A4-A0E3-7AB409781835}" ShortID="914270364">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Rudniki" ID="{037D5BAD-1384-4804-B41C-898C92322FB9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4FCF4160-0C81-4723-8FAD-ABE70AF26413}" ShortID="1059643491">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Rift" ID="{756E18F9-A5ED-45A3-B3B7-2FBD9B89A942}">
-					<ChildrenList>
-						<Action Name="" ID="{2D1753AE-6756-43EB-B5FE-AFE3954C2E03}" ShortID="15106282">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Rift" ID="{17926CC9-F63F-4E12-A1CA-12E88B2D4F8B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{AD0B820D-B2BA-4A23-9C1C-F07D01A4DCD7}" ShortID="958636776">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Rock" ID="{5C5CF589-9477-4BFF-BDEE-53DC61FBD827}">
-					<ChildrenList>
-						<Action Name="" ID="{3C64CF10-FA67-4F5E-A1DC-0EDF2642568F}" ShortID="847939633">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Rock" ID="{865521AB-3834-4B3E-B0DD-4766CE9408E0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{57883393-4F79-47A7-82E3-6BDE8888A337}" ShortID="97923621">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_Canal" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}">
-					<ChildrenList>
-						<Action Name="" ID="{8606020F-96DD-4DD1-8E56-4E4F08BA0D08}" ShortID="1053488854">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Canal" ID="{E097A596-B935-437B-BC69-E92CFDFDE50A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{EA88A967-E82F-4269-A8B9-C2470DFBD5B5}" ShortID="420406547">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="STATE_music_volume_on" ID="{19A0C703-7564-415F-8002-9BF8A25434DC}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
