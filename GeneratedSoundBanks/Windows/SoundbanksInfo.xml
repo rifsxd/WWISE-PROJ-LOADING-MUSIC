@@ -16,10 +16,10 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2675053005" Language="SFX" Hash="493188196">
-			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_SFX</ObjectPath>
-			<ShortName>RXD_MUSIC_SFX</ShortName>
-			<Path>RXD_MUSIC_SFX.bnk</Path>
+		<SoundBank Id="1771949974" Language="SFX" Hash="3022596721">
+			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_BATTLE</ObjectPath>
+			<ShortName>RXD_MUSIC_BATTLE</ShortName>
+			<Path>RXD_MUSIC_BATTLE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3853422049" Name="RXD_Amigosville_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Amigosville_Battle" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -29,6 +29,256 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4116771978" Name="RXD_Canal_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Canal_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="479196085" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Pilsen (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Pilsen (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4261920629" Name="RXD_Canyon_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Canyon_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="766243857" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Ensk (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Ensk (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="8121513" Name="RXD_Desert_Train_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Desert_Train_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="540813481" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - El Halluf (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - El Halluf (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1485831965" Name="RXD_Erlenberg_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Erlenberg_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="478540211" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2188536238" Name="RXD_Faust_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Faust_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="485692060" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3392388129" Name="RXD_Forgecity_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Forgecity_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="775910989" Language="SFX">
+							<ShortName>06. Highway (Battle).wav</ShortName>
+							<Path>SFX\06. Highway (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1912228508" Name="RXD_Fort_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Fort_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="385503914" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1982713783" Name="RXD_Grossberg_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Grossberg_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="409019361" Language="SFX">
+							<ShortName>12. Pearl River (Battle).wav</ShortName>
+							<Path>SFX\12. Pearl River (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="401813005" Name="RXD_Himmelsdorf_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Himmelsdorf_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="880330957" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2877568359" Name="RXD_Holland_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Holland_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="336305550" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2946533587" Name="RXD_Holmeisk_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Holmeisk_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="67811157" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Overlord (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Overlord (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3802031032" Name="RXD_Iceworld_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Iceworld_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="615746481" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Glacier (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Glacier (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1952336630" Name="RXD_Italy_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Italy_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="680926699" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Minsk (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Minsk (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114135460" Name="RXD_Karelia_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Karelia_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="9400469" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Karelia (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Karelia (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="201327104" Name="RXD_Karieri_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Karieri_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="976638944" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Tundra (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Tundra (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1889053922" Name="RXD_Lumber_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Lumber_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="745657147" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1299694577" Name="RXD_Malinovka_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Malinovka_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="393203427" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Malinovka (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Malinovka (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="672097809" Name="RXD_Medvedkovo_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Medvedkovo_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="314126143" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1851973010" Name="RXD_Milbase_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Milbase_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="663224191" Language="SFX">
+							<ShortName>21. Safe Haven (Battle).wav</ShortName>
+							<Path>SFX\21. Safe Haven (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2719896388" Name="RXD_Moon_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Moon_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="251003810" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3755946102" Name="RXD_Mountain_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Mountain_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="281851102" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2051200668" Name="RXD_Neptune_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Neptune_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="315553854" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Westfield (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Westfield (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3261181088" Name="RXD_Plant_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Plant_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="568553235" Language="SFX">
+							<ShortName>Andrey Kulik, Studzianki (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik, Studzianki (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="439498245" Name="RXD_Pliego_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Pliego_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="45443317" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Abbey (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Abbey (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3317742438" Name="RXD_Port_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Port_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="111201675" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Steppes (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Steppes (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4174317394" Name="RXD_Rift_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rift_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="957048285" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Cliff (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Cliff (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3928918084" Name="RXD_Rock_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rock_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="842032220" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Redshire (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Redshire (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1453402451" Name="RXD_Rudniki_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rudniki_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="944701457" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Mines (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Mines (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="723072977" Name="RXD_Savanna_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Savanna_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="156273398" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Sand River (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Sand River (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2495855118" Name="RXD_Skit_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Skit_Battle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="278672623" Language="SFX">
+							<ShortName>Andrey Kulik feat. Andrius Klimka - Fjords (Battle).wav</ShortName>
+							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Fjords (Battle)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2032693758" Language="SFX" Hash="1106584083">
+			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_INTRO</ObjectPath>
+			<ShortName>RXD_MUSIC_INTRO</ShortName>
+			<Path>RXD_MUSIC_INTRO.bnk</Path>
+			<IncludedEvents>
 				<Event Id="1838671999" Name="RXD_Amigosville_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Amigosville_Intro" DurationType="OneShot" DurationMin="71.834244" DurationMax="71.834244">
 					<IncludedMemoryFiles>
 						<File Id="739796004" Language="SFX">
@@ -39,14 +289,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="4116771978" Name="RXD_Canal_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Canal_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="479196085" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Pilsen (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Pilsen (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2782040098" Name="RXD_Canal_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Canal_Intro" DurationType="OneShot" DurationMin="75.168732" DurationMax="75.168732">
 					<IncludedMemoryFiles>
@@ -59,14 +301,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4261920629" Name="RXD_Canyon_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Canyon_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="766243857" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Ensk (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Ensk (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1522633891" Name="RXD_Canyon_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Canyon_Intro" DurationType="OneShot" DurationMin="70.469521" DurationMax="70.469521">
 					<IncludedMemoryFiles>
 						<File Id="661293021" Language="SFX">
@@ -77,14 +311,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="8121513" Name="RXD_Desert_Train_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Desert_Train_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="540813481" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - El Halluf (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - El Halluf (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2431026391" Name="RXD_Desert_Train_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Desert_Train_Intro" DurationType="OneShot" DurationMin="67.303947" DurationMax="67.303947">
 					<IncludedMemoryFiles>
@@ -97,14 +323,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1485831965" Name="RXD_Erlenberg_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Erlenberg_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="478540211" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1106468059" Name="RXD_Erlenberg_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Erlenberg_Intro" DurationType="OneShot" DurationMin="71.107597" DurationMax="71.107597">
 					<IncludedMemoryFiles>
 						<File Id="1041914833" Language="SFX">
@@ -115,14 +333,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="2188536238" Name="RXD_Faust_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Faust_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="485692060" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4125706022" Name="RXD_Faust_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Faust_Intro" DurationType="OneShot" DurationMin="86.634171" DurationMax="86.634171">
 					<IncludedMemoryFiles>
@@ -135,14 +345,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3392388129" Name="RXD_Forgecity_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Forgecity_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="775910989" Language="SFX">
-							<ShortName>06. Highway (Battle).wav</ShortName>
-							<Path>SFX\06. Highway (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1697369535" Name="RXD_Forgecity_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Forgecity_Intro" DurationType="OneShot" DurationMin="79.728981" DurationMax="79.728981">
 					<IncludedMemoryFiles>
 						<File Id="767561223" Language="SFX">
@@ -153,14 +355,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="1912228508" Name="RXD_Fort_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Fort_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="385503914" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="387460744" Name="RXD_Fort_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Fort_Intro" DurationType="OneShot" DurationMin="59.54406" DurationMax="59.54406">
 					<IncludedMemoryFiles>
@@ -173,14 +367,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1982713783" Name="RXD_Grossberg_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Grossberg_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="409019361" Language="SFX">
-							<ShortName>12. Pearl River (Battle).wav</ShortName>
-							<Path>SFX\12. Pearl River (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="31834545" Name="RXD_Grossberg_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Grossberg_Intro" DurationType="OneShot" DurationMin="85.248978" DurationMax="85.248978">
 					<IncludedMemoryFiles>
 						<File Id="440449384" Language="SFX">
@@ -191,14 +377,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="401813005" Name="RXD_Himmelsdorf_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Himmelsdorf_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="880330957" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3275628267" Name="RXD_Himmelsdorf_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Himmelsdorf_Intro" DurationType="OneShot" DurationMin="62.972923" DurationMax="62.972923">
 					<IncludedMemoryFiles>
@@ -211,14 +389,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2877568359" Name="RXD_Holland_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Holland_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="336305550" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2699386433" Name="RXD_Holland_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Holland_Intro" DurationType="OneShot" DurationMin="67.951431" DurationMax="67.951431">
 					<IncludedMemoryFiles>
 						<File Id="1041315015" Language="SFX">
@@ -229,14 +399,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="2946533587" Name="RXD_Holmeisk_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Holmeisk_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="67811157" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Overlord (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Overlord (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="429638413" Name="RXD_Holmeisk_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Holmeisk_Intro" DurationType="OneShot" DurationMin="69.549072" DurationMax="69.549072">
 					<IncludedMemoryFiles>
@@ -249,14 +411,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3802031032" Name="RXD_Iceworld_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Iceworld_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="615746481" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Glacier (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Glacier (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="110717348" Name="RXD_Iceworld_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Iceworld_Intro" DurationType="OneShot" DurationMin="85.557396" DurationMax="85.557396">
 					<IncludedMemoryFiles>
 						<File Id="689463547" Language="SFX">
@@ -267,14 +421,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="1952336630" Name="RXD_Italy_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Italy_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="680926699" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Minsk (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Minsk (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3740357086" Name="RXD_Italy_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Italy_Intro" DurationType="OneShot" DurationMin="80." DurationMax="80.">
 					<IncludedMemoryFiles>
@@ -287,14 +433,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4114135460" Name="RXD_Karelia_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Karelia_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="9400469" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Karelia (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Karelia (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1849825120" Name="RXD_Karelia_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Karelia_Intro" DurationType="OneShot" DurationMin="62.382881" DurationMax="62.382881">
 					<IncludedMemoryFiles>
 						<File Id="12725678" Language="SFX">
@@ -305,14 +443,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="201327104" Name="RXD_Karieri_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Karieri_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="976638944" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Tundra (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Tundra (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1843285852" Name="RXD_Karieri_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Karieri_Intro" DurationType="OneShot" DurationMin="65.299141" DurationMax="65.299141">
 					<IncludedMemoryFiles>
@@ -325,14 +455,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1889053922" Name="RXD_Lumber_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Lumber_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="745657147" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1613710282" Name="RXD_Lumber_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Lumber_Intro" DurationType="OneShot" DurationMin="69.289001" DurationMax="69.289001">
 					<IncludedMemoryFiles>
 						<File Id="402455834" Language="SFX">
@@ -343,14 +465,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="1299694577" Name="RXD_Malinovka_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Malinovka_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="393203427" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Malinovka (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Malinovka (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="257465839" Name="RXD_Malinovka_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Malinovka_Intro" DurationType="OneShot" DurationMin="69.628052" DurationMax="69.628052">
 					<IncludedMemoryFiles>
@@ -363,14 +477,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="672097809" Name="RXD_Medvedkovo_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Medvedkovo_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="314126143" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="933168527" Name="RXD_Medvedkovo_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Medvedkovo_Intro" DurationType="OneShot" DurationMin="58.720409" DurationMax="58.720409">
 					<IncludedMemoryFiles>
 						<File Id="425795396" Language="SFX">
@@ -381,14 +487,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="1851973010" Name="RXD_Milbase_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Milbase_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="663224191" Language="SFX">
-							<ShortName>21. Safe Haven (Battle).wav</ShortName>
-							<Path>SFX\21. Safe Haven (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3599534746" Name="RXD_Milbase_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Milbase_Intro" DurationType="OneShot" DurationMin="70.244331" DurationMax="70.244331">
 					<IncludedMemoryFiles>
@@ -401,14 +499,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2719896388" Name="RXD_Moon_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Moon_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="251003810" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1887662976" Name="RXD_Moon_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Moon_Intro" DurationType="OneShot" DurationMin="65.368866" DurationMax="65.368866">
 					<IncludedMemoryFiles>
 						<File Id="57395576" Language="SFX">
@@ -419,14 +509,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="3755946102" Name="RXD_Mountain_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Mountain_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="281851102" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2364687966" Name="RXD_Mountain_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Mountain_Intro" DurationType="OneShot" DurationMin="60.97501" DurationMax="60.97501">
 					<IncludedMemoryFiles>
@@ -439,14 +521,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2051200668" Name="RXD_Neptune_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Neptune_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="315553854" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Westfield (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Westfield (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2956259976" Name="RXD_Neptune_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Neptune_Intro" DurationType="OneShot" DurationMin="66.921364" DurationMax="66.921364">
 					<IncludedMemoryFiles>
 						<File Id="677475187" Language="SFX">
@@ -457,14 +531,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="3261181088" Name="RXD_Plant_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Plant_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="568553235" Language="SFX">
-							<ShortName>Andrey Kulik, Studzianki (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik, Studzianki (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1702183548" Name="RXD_Plant_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Plant_Intro" DurationType="OneShot" DurationMin="71.879684" DurationMax="71.879684">
 					<IncludedMemoryFiles>
@@ -477,14 +543,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="439498245" Name="RXD_Pliego_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Pliego_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="45443317" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Abbey (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Abbey (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="760836499" Name="RXD_Pliego_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Pliego_Intro" DurationType="OneShot" DurationMin="64.379997" DurationMax="64.379997">
 					<IncludedMemoryFiles>
 						<File Id="640736468" Language="SFX">
@@ -495,14 +553,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="3317742438" Name="RXD_Port_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Port_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="111201675" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Steppes (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Steppes (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4247698542" Name="RXD_Port_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Port_Intro" DurationType="OneShot" DurationMin="64.889999" DurationMax="64.889999">
 					<IncludedMemoryFiles>
@@ -515,14 +565,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4174317394" Name="RXD_Rift_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rift_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="957048285" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Cliff (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Cliff (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2863676506" Name="RXD_Rift_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Rift_Intro" DurationType="OneShot" DurationMin="64.922516" DurationMax="64.922516">
 					<IncludedMemoryFiles>
 						<File Id="912259334" Language="SFX">
@@ -533,14 +575,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="3928918084" Name="RXD_Rock_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rock_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="842032220" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Redshire (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Redshire (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2892466816" Name="RXD_Rock_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Rock_Intro" DurationType="OneShot" DurationMin="76.920433" DurationMax="76.920433">
 					<IncludedMemoryFiles>
@@ -553,14 +587,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1453402451" Name="RXD_Rudniki_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Rudniki_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="944701457" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Mines (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Mines (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2946429069" Name="RXD_Rudniki_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Rudniki_Intro" DurationType="OneShot" DurationMin="69.516869" DurationMax="69.516869">
 					<IncludedMemoryFiles>
 						<File Id="93561016" Language="SFX">
@@ -572,14 +598,6 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="723072977" Name="RXD_Savanna_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Savanna_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="156273398" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Sand River (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Sand River (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1872868175" Name="RXD_Savanna_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Savanna_Intro" DurationType="OneShot" DurationMin="68.080048" DurationMax="68.080048">
 					<IncludedMemoryFiles>
 						<File Id="312441907" Language="SFX">
@@ -590,14 +608,6 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
-				</Event>
-				<Event Id="2495855118" Name="RXD_Skit_Battle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Battle\RXD_Skit_Battle" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="278672623" Language="SFX">
-							<ShortName>Andrey Kulik feat. Andrius Klimka - Fjords (Battle).wav</ShortName>
-							<Path>SFX\Andrey Kulik feat. Andrius Klimka - Fjords (Battle)_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3893232902" Name="RXD_Skit_Intro" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Intro\RXD_Skit_Intro" DurationType="OneShot" DurationMin="68.014198" DurationMax="68.014198">
 					<IncludedMemoryFiles>

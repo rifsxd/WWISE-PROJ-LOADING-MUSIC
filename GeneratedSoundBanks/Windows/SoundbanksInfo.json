@@ -24,12 +24,12 @@
     "Path": "Init.bnk"
    },
    {
-    "Id": "2675053005",
+    "Id": "1771949974",
     "Language": "SFX",
-    "Hash": "493188196",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_SFX",
-    "ShortName": "RXD_MUSIC_SFX",
-    "Path": "RXD_MUSIC_SFX.bnk",
+    "Hash": "3022596721",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_BATTLE",
+    "ShortName": "RXD_MUSIC_BATTLE",
+    "Path": "RXD_MUSIC_BATTLE.bnk",
     "IncludedEvents": [
      {
       "Id": "3853422049",
@@ -45,6 +45,443 @@
        }
       ]
      },
+     {
+      "Id": "4116771978",
+      "Name": "RXD_Canal_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Canal_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "479196085",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Pilsen (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Pilsen (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4261920629",
+      "Name": "RXD_Canyon_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Canyon_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "766243857",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Ensk (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Ensk (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "8121513",
+      "Name": "RXD_Desert_Train_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Desert_Train_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "540813481",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - El Halluf (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - El Halluf (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1485831965",
+      "Name": "RXD_Erlenberg_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Erlenberg_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "478540211",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2188536238",
+      "Name": "RXD_Faust_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Faust_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "485692060",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3392388129",
+      "Name": "RXD_Forgecity_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Forgecity_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "775910989",
+        "Language": "SFX",
+        "ShortName": "06. Highway (Battle).wav",
+        "Path": "SFX\\06. Highway (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1912228508",
+      "Name": "RXD_Fort_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Fort_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "385503914",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1982713783",
+      "Name": "RXD_Grossberg_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Grossberg_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "409019361",
+        "Language": "SFX",
+        "ShortName": "12. Pearl River (Battle).wav",
+        "Path": "SFX\\12. Pearl River (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "401813005",
+      "Name": "RXD_Himmelsdorf_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Himmelsdorf_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "880330957",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2877568359",
+      "Name": "RXD_Holland_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Holland_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "336305550",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2946533587",
+      "Name": "RXD_Holmeisk_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Holmeisk_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "67811157",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Overlord (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Overlord (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3802031032",
+      "Name": "RXD_Iceworld_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Iceworld_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "615746481",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Glacier (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Glacier (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1952336630",
+      "Name": "RXD_Italy_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Italy_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "680926699",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Minsk (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Minsk (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4114135460",
+      "Name": "RXD_Karelia_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Karelia_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9400469",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Karelia (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Karelia (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "201327104",
+      "Name": "RXD_Karieri_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Karieri_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "976638944",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Tundra (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Tundra (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1889053922",
+      "Name": "RXD_Lumber_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Lumber_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "745657147",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1299694577",
+      "Name": "RXD_Malinovka_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Malinovka_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "393203427",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Malinovka (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Malinovka (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "672097809",
+      "Name": "RXD_Medvedkovo_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Medvedkovo_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "314126143",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1851973010",
+      "Name": "RXD_Milbase_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Milbase_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "663224191",
+        "Language": "SFX",
+        "ShortName": "21. Safe Haven (Battle).wav",
+        "Path": "SFX\\21. Safe Haven (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2719896388",
+      "Name": "RXD_Moon_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Moon_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "251003810",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3755946102",
+      "Name": "RXD_Mountain_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Mountain_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "281851102",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2051200668",
+      "Name": "RXD_Neptune_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Neptune_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "315553854",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Westfield (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Westfield (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3261181088",
+      "Name": "RXD_Plant_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Plant_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "568553235",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik, Studzianki (Battle).wav",
+        "Path": "SFX\\Andrey Kulik, Studzianki (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "439498245",
+      "Name": "RXD_Pliego_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Pliego_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "45443317",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Abbey (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Abbey (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3317742438",
+      "Name": "RXD_Port_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Port_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "111201675",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Steppes (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Steppes (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4174317394",
+      "Name": "RXD_Rift_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rift_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "957048285",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Cliff (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Cliff (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3928918084",
+      "Name": "RXD_Rock_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rock_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "842032220",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Redshire (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Redshire (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1453402451",
+      "Name": "RXD_Rudniki_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rudniki_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "944701457",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Mines (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Mines (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "723072977",
+      "Name": "RXD_Savanna_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Savanna_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "156273398",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Sand River (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Sand River (Battle)_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2495855118",
+      "Name": "RXD_Skit_Battle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Skit_Battle",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "278672623",
+        "Language": "SFX",
+        "ShortName": "Andrey Kulik feat. Andrius Klimka - Fjords (Battle).wav",
+        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Fjords (Battle)_3F75BDB9.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "244438798",
+      "Name": "RTPC_ext_settings_volume_master_music",
+      "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
+     }
+    ]
+   },
+   {
+    "Id": "2032693758",
+    "Language": "SFX",
+    "Hash": "1106584083",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_INTRO",
+    "ShortName": "RXD_MUSIC_INTRO",
+    "Path": "RXD_MUSIC_INTRO.bnk",
+    "IncludedEvents": [
      {
       "Id": "1838671999",
       "Name": "RXD_Amigosville_Intro",
@@ -65,20 +502,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "4116771978",
-      "Name": "RXD_Canal_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Canal_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "479196085",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Pilsen (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Pilsen (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -106,20 +529,6 @@
       ]
      },
      {
-      "Id": "4261920629",
-      "Name": "RXD_Canyon_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Canyon_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "766243857",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Ensk (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Ensk (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1522633891",
       "Name": "RXD_Canyon_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Canyon_Intro",
@@ -139,20 +548,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "8121513",
-      "Name": "RXD_Desert_Train_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Desert_Train_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "540813481",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - El Halluf (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - El Halluf (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -180,20 +575,6 @@
       ]
      },
      {
-      "Id": "1485831965",
-      "Name": "RXD_Erlenberg_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Erlenberg_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "478540211",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Erlenberg (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1106468059",
       "Name": "RXD_Erlenberg_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Erlenberg_Intro",
@@ -213,20 +594,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "2188536238",
-      "Name": "RXD_Faust_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Faust_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "485692060",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Nebelburg (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -254,20 +621,6 @@
       ]
      },
      {
-      "Id": "3392388129",
-      "Name": "RXD_Forgecity_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Forgecity_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "775910989",
-        "Language": "SFX",
-        "ShortName": "06. Highway (Battle).wav",
-        "Path": "SFX\\06. Highway (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1697369535",
       "Name": "RXD_Forgecity_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Forgecity_Intro",
@@ -287,20 +640,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "1912228508",
-      "Name": "RXD_Fort_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Fort_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "385503914",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Ruinberg (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -328,20 +667,6 @@
       ]
      },
      {
-      "Id": "1982713783",
-      "Name": "RXD_Grossberg_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Grossberg_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "409019361",
-        "Language": "SFX",
-        "ShortName": "12. Pearl River (Battle).wav",
-        "Path": "SFX\\12. Pearl River (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "31834545",
       "Name": "RXD_Grossberg_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Grossberg_Intro",
@@ -361,20 +686,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "401813005",
-      "Name": "RXD_Himmelsdorf_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Himmelsdorf_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "880330957",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Himmelsdorf (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -402,20 +713,6 @@
       ]
      },
      {
-      "Id": "2877568359",
-      "Name": "RXD_Holland_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Holland_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "336305550",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Fishermans Bay (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "2699386433",
       "Name": "RXD_Holland_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Holland_Intro",
@@ -435,20 +732,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "2946533587",
-      "Name": "RXD_Holmeisk_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Holmeisk_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "67811157",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Overlord (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Overlord (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -476,20 +759,6 @@
       ]
      },
      {
-      "Id": "3802031032",
-      "Name": "RXD_Iceworld_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Iceworld_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "615746481",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Glacier (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Glacier (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "110717348",
       "Name": "RXD_Iceworld_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Iceworld_Intro",
@@ -509,20 +778,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "1952336630",
-      "Name": "RXD_Italy_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Italy_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "680926699",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Minsk (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Minsk (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -550,20 +805,6 @@
       ]
      },
      {
-      "Id": "4114135460",
-      "Name": "RXD_Karelia_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Karelia_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "9400469",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Karelia (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Karelia (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1849825120",
       "Name": "RXD_Karelia_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Karelia_Intro",
@@ -583,20 +824,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "201327104",
-      "Name": "RXD_Karieri_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Karieri_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "976638944",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Tundra (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Tundra (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -624,20 +851,6 @@
       ]
      },
      {
-      "Id": "1889053922",
-      "Name": "RXD_Lumber_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Lumber_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "745657147",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka and Vyacheslav Skadorva - Mountain Pass (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1613710282",
       "Name": "RXD_Lumber_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Lumber_Intro",
@@ -657,20 +870,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "1299694577",
-      "Name": "RXD_Malinovka_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Malinovka_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "393203427",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Malinovka (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Malinovka (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -698,20 +897,6 @@
       ]
      },
      {
-      "Id": "672097809",
-      "Name": "RXD_Medvedkovo_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Medvedkovo_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "314126143",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Prokhorovka (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "933168527",
       "Name": "RXD_Medvedkovo_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Medvedkovo_Intro",
@@ -731,20 +916,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "1851973010",
-      "Name": "RXD_Milbase_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Milbase_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "663224191",
-        "Language": "SFX",
-        "ShortName": "21. Safe Haven (Battle).wav",
-        "Path": "SFX\\21. Safe Haven (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -772,20 +943,6 @@
       ]
      },
      {
-      "Id": "2719896388",
-      "Name": "RXD_Moon_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Moon_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "251003810",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Serene Coast (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1887662976",
       "Name": "RXD_Moon_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Moon_Intro",
@@ -805,20 +962,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "3755946102",
-      "Name": "RXD_Mountain_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Mountain_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "281851102",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Siegfried Line (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -846,20 +989,6 @@
       ]
      },
      {
-      "Id": "2051200668",
-      "Name": "RXD_Neptune_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Neptune_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "315553854",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Westfield (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Westfield (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "2956259976",
       "Name": "RXD_Neptune_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Neptune_Intro",
@@ -879,20 +1008,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "3261181088",
-      "Name": "RXD_Plant_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Plant_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "568553235",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik, Studzianki (Battle).wav",
-        "Path": "SFX\\Andrey Kulik, Studzianki (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -920,20 +1035,6 @@
       ]
      },
      {
-      "Id": "439498245",
-      "Name": "RXD_Pliego_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Pliego_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "45443317",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Abbey (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Abbey (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "760836499",
       "Name": "RXD_Pliego_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Pliego_Intro",
@@ -953,20 +1054,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "3317742438",
-      "Name": "RXD_Port_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Port_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "111201675",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Steppes (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Steppes (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -994,20 +1081,6 @@
       ]
      },
      {
-      "Id": "4174317394",
-      "Name": "RXD_Rift_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rift_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "957048285",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Cliff (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Cliff (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "2863676506",
       "Name": "RXD_Rift_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Rift_Intro",
@@ -1027,20 +1100,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "3928918084",
-      "Name": "RXD_Rock_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rock_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "842032220",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Redshire (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Redshire (Battle)_3F75BDB9.wem"
        }
       ]
      },
@@ -1068,20 +1127,6 @@
       ]
      },
      {
-      "Id": "1453402451",
-      "Name": "RXD_Rudniki_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Rudniki_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "944701457",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Mines (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Mines (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "2946429069",
       "Name": "RXD_Rudniki_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Rudniki_Intro",
@@ -1105,20 +1150,6 @@
       ]
      },
      {
-      "Id": "723072977",
-      "Name": "RXD_Savanna_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Savanna_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "156273398",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Sand River (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Sand River (Battle)_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
       "Id": "1872868175",
       "Name": "RXD_Savanna_Intro",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Intro\\RXD_Savanna_Intro",
@@ -1138,20 +1169,6 @@
         "Id": "1929134559",
         "Name": "STATE_music_volume_on",
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
-       }
-      ]
-     },
-     {
-      "Id": "2495855118",
-      "Name": "RXD_Skit_Battle",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Battle\\RXD_Skit_Battle",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "278672623",
-        "Language": "SFX",
-        "ShortName": "Andrey Kulik feat. Andrius Klimka - Fjords (Battle).wav",
-        "Path": "SFX\\Andrey Kulik feat. Andrius Klimka - Fjords (Battle)_3F75BDB9.wem"
        }
       ]
      },
