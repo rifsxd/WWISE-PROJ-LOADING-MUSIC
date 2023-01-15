@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1771949974" Language="SFX" Hash="48578125">
+		<SoundBank Id="1771949974" Language="SFX" Hash="1764795056">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_BATTLE</ObjectPath>
 			<ShortName>RXD_MUSIC_BATTLE</ShortName>
 			<Path>RXD_MUSIC_BATTLE.bnk</Path>

@@ -46856,6 +46856,9 @@
 				<ActorMixer Name="MUSIC_BATTLE" ID="{13192522-3F15-4A23-9D8B-D8998284A03F}" ShortID="260975154">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{BF8B111E-A38F-40E7-86DD-51560C612A22}" ShortID="808565696">
 									<ReferenceList>
