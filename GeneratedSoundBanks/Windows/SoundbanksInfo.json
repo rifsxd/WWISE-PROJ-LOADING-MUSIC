@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\Github\\WWISE-PROJ-LOADING-MUSIC\\",
-   "SourceFilesRoot": "E:\\Github\\WWISE-PROJ-LOADING-MUSIC\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\Github\\WWISE-PROJ-LOADING-MUSIC\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "F:\\Github\\WWISE-PROJ-LOADING-MUSIC\\",
+   "SourceFilesRoot": "F:\\Github\\WWISE-PROJ-LOADING-MUSIC\\.cache\\Windows\\",
+   "SoundBanksRoot": "F:\\Github\\WWISE-PROJ-LOADING-MUSIC\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Github\\WWISE-PROJ-LOADING-MUSIC\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "F:\\Github\\WWISE-PROJ-LOADING-MUSIC\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -26,7 +26,7 @@
    {
     "Id": "1771949974",
     "Language": "SFX",
-    "Hash": "3022596721",
+    "Hash": "1787105253",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_BATTLE",
     "ShortName": "RXD_MUSIC_BATTLE",
     "Path": "RXD_MUSIC_BATTLE.bnk",
@@ -477,7 +477,7 @@
    {
     "Id": "2032693758",
     "Language": "SFX",
-    "Hash": "1106584083",
+    "Hash": "811674233",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_MUSIC_INTRO",
     "ShortName": "RXD_MUSIC_INTRO",
     "Path": "RXD_MUSIC_INTRO.bnk",
@@ -1194,6 +1194,66 @@
         "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on"
        }
       ]
+     },
+     {
+      "Id": "377701725",
+      "Name": "stop_group_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Utiliry\\stop_group_music",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3659244819",
+        "Name": "STATE_music_volume_off",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_off"
+       }
+      ]
+     },
+     {
+      "Id": "4153752414",
+      "Name": "stop_group_music_aftershot",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Utiliry\\stop_group_music_aftershot",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3659244819",
+        "Name": "STATE_music_volume_off",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_off"
+       }
+      ]
+     },
+     {
+      "Id": "936085121",
+      "Name": "stop_group_music_hangar",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Utiliry\\stop_group_music_hangar",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3659244819",
+        "Name": "STATE_music_volume_off",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_off"
+       }
+      ]
+     },
+     {
+      "Id": "2876843409",
+      "Name": "stop_group_music_prebattle",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_BGM\\Utiliry\\stop_group_music_prebattle",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3659244819",
+        "Name": "STATE_music_volume_off",
+        "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_off"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -1209,6 +1269,13 @@
       "Name": "STATE_music_volume_on",
       "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_on",
       "GUID": "{19A0C703-7564-415F-8002-9BF8A25434DC}",
+      "States": []
+     },
+     {
+      "Id": "3659244819",
+      "Name": "STATE_music_volume_off",
+      "ObjectPath": "\\States\\Music\\STATE_music_volume_fadeout\\STATE_music_volume_off",
+      "GUID": "{01DEF091-7B77-463E-B17E-CA67FD791050}",
       "States": []
      }
     ]

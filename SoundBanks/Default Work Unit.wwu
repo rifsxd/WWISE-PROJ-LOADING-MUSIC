@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<SoundBank Name="RXD_MUSIC_INTRO" ID="{083C1E74-3D29-4965-AD83-F834366D396C}">
 							<ObjectInclusionList>
+								<ObjectRef Name="stop_group_music_hangar" ID="{1E973C0E-CBBB-4028-9BA7-ED1417EED6CD}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Neptune_Intro" ID="{2CC3945B-78BC-4031-8742-E54B7A4FFAC5}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Rudniki_Intro" ID="{4242565F-B15B-412F-B305-D3F02C04F730}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Moon_Intro" ID="{F3736711-1C06-41A1-B957-E3B0F0FF279C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
@@ -18,9 +19,11 @@
 								<ObjectRef Name="RXD_Holmeisk_Intro" ID="{D70839BD-8CEA-44E3-A73E-FEB51E7F93C8}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Canal_Intro" ID="{188924BC-05C4-44F9-BDD0-1AC10454D524}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Pliego_Intro" ID="{7F6B7011-6915-450A-884D-713BADDBE0DB}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="stop_group_music_aftershot" ID="{B9A4B9F1-0300-4553-B834-F8EED06C4A7C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Grossberg_Intro" ID="{D8959857-BB10-455D-8EE1-7BDB6B76B9F9}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Rift_Intro" ID="{756E18F9-A5ED-45A3-B3B7-2FBD9B89A942}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Faust_Intro" ID="{52FCC68D-41B8-4658-A5B0-ACF937D38AB0}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="stop_group_music_prebattle" ID="{2E8333ED-4BB6-4659-80D5-8CA6BE9D8B06}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Canyon_Intro" ID="{7759DBD2-1D24-4722-9E0B-0ED881FC0501}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Iceworld_Intro" ID="{AD043681-CFFE-4743-9028-28686AC337F4}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Holland_Intro" ID="{130C80A8-955D-4866-AC5B-CCB0FA25C92C}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
@@ -36,6 +39,7 @@
 								<ObjectRef Name="RXD_Karelia_Intro" ID="{F75ADE28-EA7C-4DEE-A856-CA152012B7CE}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Amigosville_Intro" ID="{764D6C08-0E5F-4E0E-A7B9-8236BA5B24FA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Plant_Intro" ID="{EA1333E4-E6EE-4ED6-B2D6-E977A2419209}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="stop_group_music" ID="{FAE30427-8D80-4F70-8986-2398EA02492A}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Italy_Intro" ID="{DA06FA38-1F33-4FB9-ADEC-987BCB6689AA}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RXD_Erlenberg_Intro" ID="{A09A20E3-D897-4FF0-B176-A32147156489}" WorkUnitID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>

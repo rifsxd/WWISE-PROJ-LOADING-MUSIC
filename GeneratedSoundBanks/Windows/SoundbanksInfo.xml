@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Github\WWISE-PROJ-LOADING-MUSIC\</ProjectRoot>
-		<SourceFilesRoot>E:\Github\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Github\WWISE-PROJ-LOADING-MUSIC\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>F:\Github\WWISE-PROJ-LOADING-MUSIC\</ProjectRoot>
+		<SourceFilesRoot>F:\Github\WWISE-PROJ-LOADING-MUSIC\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Github\WWISE-PROJ-LOADING-MUSIC\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Github\WWISE-PROJ-LOADING-MUSIC\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Github\WWISE-PROJ-LOADING-MUSIC\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1771949974" Language="SFX" Hash="3022596721">
+		<SoundBank Id="1771949974" Language="SFX" Hash="1787105253">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_BATTLE</ObjectPath>
 			<ShortName>RXD_MUSIC_BATTLE</ShortName>
 			<Path>RXD_MUSIC_BATTLE.bnk</Path>
@@ -274,7 +274,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2032693758" Language="SFX" Hash="1106584083">
+		<SoundBank Id="2032693758" Language="SFX" Hash="811674233">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_INTRO</ObjectPath>
 			<ShortName>RXD_MUSIC_INTRO</ShortName>
 			<Path>RXD_MUSIC_INTRO.bnk</Path>
@@ -620,12 +620,35 @@
 						<ActionSetStateEntry Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="377701725" Name="stop_group_music" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Utiliry\stop_group_music" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3659244819" Name="STATE_music_volume_off" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_off"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4153752414" Name="stop_group_music_aftershot" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Utiliry\stop_group_music_aftershot" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3659244819" Name="STATE_music_volume_off" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_off"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="936085121" Name="stop_group_music_hangar" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Utiliry\stop_group_music_hangar" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3659244819" Name="STATE_music_volume_off" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_off"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2876843409" Name="stop_group_music_prebattle" ObjectPath="\Events\Default Work Unit\WOTPC_BGM\Utiliry\stop_group_music_prebattle" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3659244819" Name="STATE_music_volume_off" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_off"/>
+					</ActionSetState>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1929134559" Name="STATE_music_volume_on" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_on" GUID="{19A0C703-7564-415F-8002-9BF8A25434DC}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3659244819" Name="STATE_music_volume_off" ObjectPath="\States\Music\STATE_music_volume_fadeout\STATE_music_volume_off" GUID="{01DEF091-7B77-463E-B17E-CA67FD791050}">
 					<States/>
 				</StateGroup>
 			</StateGroups>

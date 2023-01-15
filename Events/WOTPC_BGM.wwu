@@ -1192,6 +1192,66 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Utiliry" ID="{592282B9-46D5-4A1E-8475-DE2FAB2C03A7}" ShortID="120600829">
+					<ChildrenList>
+						<Event Name="stop_group_music" ID="{FAE30427-8D80-4F70-8986-2398EA02492A}">
+							<ChildrenList>
+								<Action Name="" ID="{70995E87-A773-437F-B05B-98071A201A2F}" ShortID="934805934">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_off" ID="{01DEF091-7B77-463E-B17E-CA67FD791050}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_group_music_aftershot" ID="{B9A4B9F1-0300-4553-B834-F8EED06C4A7C}">
+							<ChildrenList>
+								<Action Name="" ID="{4E9C2D17-D45A-4CB0-87BB-0B1F3564DCF5}" ShortID="921957197">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_off" ID="{01DEF091-7B77-463E-B17E-CA67FD791050}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_group_music_hangar" ID="{1E973C0E-CBBB-4028-9BA7-ED1417EED6CD}">
+							<ChildrenList>
+								<Action Name="" ID="{55778076-9C83-44E9-8D8D-361C8C1D8F86}" ShortID="192733433">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_off" ID="{01DEF091-7B77-463E-B17E-CA67FD791050}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_group_music_prebattle" ID="{2E8333ED-4BB6-4659-80D5-8CA6BE9D8B06}">
+							<ChildrenList>
+								<Action Name="" ID="{4E7975FF-E78C-4317-BFBD-E294F92AAA83}" ShortID="174805327">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STATE_music_volume_off" ID="{01DEF091-7B77-463E-B17E-CA67FD791050}" WorkUnitID="{6B0A253D-300A-4CC6-B0CC-9CF7383673B5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
