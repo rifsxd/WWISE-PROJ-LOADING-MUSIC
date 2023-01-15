@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1771949974" Language="SFX" Hash="1787105253">
+		<SoundBank Id="1771949974" Language="SFX" Hash="48578125">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_BATTLE</ObjectPath>
 			<ShortName>RXD_MUSIC_BATTLE</ShortName>
 			<Path>RXD_MUSIC_BATTLE.bnk</Path>
@@ -274,7 +274,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2032693758" Language="SFX" Hash="811674233">
+		<SoundBank Id="2032693758" Language="SFX" Hash="3617697592">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_MUSIC_INTRO</ObjectPath>
 			<ShortName>RXD_MUSIC_INTRO</ShortName>
 			<Path>RXD_MUSIC_INTRO.bnk</Path>
