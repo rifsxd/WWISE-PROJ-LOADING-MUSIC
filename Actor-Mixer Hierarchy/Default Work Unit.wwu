@@ -2915,9 +2915,7 @@
 								<StateRef Name="STATE_music_volume_off" ID="{01DEF091-7B77-463E-B17E-CA67FD791050}"/>
 								<CustomState Name="" ID="{4EA73D39-7E47-4B8B-AAE3-F8DDBB6295D3}" ShortID="503574905">
 									<PropertyList>
-										<Property Name="Highpass" Type="int16" Value="35"/>
-										<Property Name="Lowpass" Type="int16" Value="75"/>
-										<Property Name="Volume" Type="Real64" Value="-108"/>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -46855,10 +46853,12 @@
 				</Folder>
 				<ActorMixer Name="MUSIC_BATTLE" ID="{13192522-3F15-4A23-9D8B-D8998284A03F}" ShortID="260975154">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
 							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{BF8B111E-A38F-40E7-86DD-51560C612A22}" ShortID="808565696">
 									<ReferenceList>
